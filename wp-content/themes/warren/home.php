@@ -11,7 +11,8 @@
 
 
 
-<h1 class="text-5xl font-bold text-black text-center">Landing Page</h1>
+<h1 class="text-7xl text-burntOrange text-center font-anekLatin font-bold">Burnt Orange</h1>
+
 
 
 

@@ -10,7 +10,9 @@ module.exports = {
         './resources/js/*.js',
         './safelist.txt'
     ],
+
     theme: {
+
         container: {
             padding: {
                 DEFAULT: '1rem',
@@ -18,19 +20,36 @@ module.exports = {
                 lg: '0rem'
             },
         },
+        
         extend: {
-            colors: tailpress.colorMapper(tailpress.theme('settings.color.palette', theme)),
-            fontSize: tailpress.fontSizeMapper(tailpress.theme('settings.typography.fontSizes', theme))
+            textColor: {
+                'orangeCrayola'   : '#ff6e33',
+                'darkGrey'      : '#ff6d33',
+                'isabelline'     : '#f0ebe5'
+              },
+              
+              backgroundColor: {
+                'orangeCrayola'   : '#ff6e33',
+                'darkGrey'      : '#ff6d33',
+                'isabelline'     : '#f0ebe5'
+              },
+
+              fontFamily: {
+                'anekLatin': ['Anek Latin', 'sans-serif']
+              },
         },
+
         screens: {
-            'xs': '480px',
-            'sm': '600px',
-            'md': '782px',
-            'lg': tailpress.theme('settings.layout.contentSize', theme),
-            'xl': tailpress.theme('settings.layout.wideSize', theme),
-            '2xl': '1440px'
+            'xxs' : '320px',
+            'xs'  : '480px',
+            'sm'  : '575px',
+            'md'  : '768px',
+            'lg'  : tailpress.theme('settings.layout.contentSize', theme),
+            'xl'  : tailpress.theme('settings.layout.wideSize', theme),
+            '2xl' : '1440px'
         }
     },
+
     plugins: [
         tailpress.tailwind
     ]
