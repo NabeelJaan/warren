@@ -42,6 +42,11 @@ function tailpress_enqueue_scripts() {
 	$theme = wp_get_theme();
 
 	wp_enqueue_style( 'tailpress', tailpress_asset( 'css/app.css' ), array(), $theme->get( 'Version' ) );
+
+	// Google Font Anek Latin
+	wp_enqueue_style( 'GoogleFont', '//fonts.googleapis.com/css2?family=Anek+Latin:wght@400;500;600;700;800&display=swap', array(), '' );
+
+	// JS
 	wp_enqueue_script( 'tailpress', tailpress_asset( 'js/app.js' ), array(), $theme->get( 'Version' ) );
 }
 
