@@ -23,8 +23,7 @@ module.exports = {
         
         extend: {
             textColor: {
-                'orangeCrayola'   : '#ff6e33',
-                'darkGrey'      : '#ff6d33',
+                'orangeCrayola'  : '#ff6d33',
                 'isabelline'     : '#f0ebe5'
               },
               

@@ -23,8 +23,8 @@
 
 	<header>
 
-		<div class="mx-auto container">
-			<div class="lg:flex lg:justify-between lg:items-center py-6">
+		<div class="bg-transparent relative z-50">
+			<div class="lg:flex lg:justify-between lg:items-center px-4 py-6">
 				<div class="flex justify-between items-center">
 					<div>
 						<?php if ( has_custom_logo() ) { ?>
@@ -58,6 +58,11 @@
 					)
 				);
 				?>
+
+				<div class="account_btn">
+					<a href="#" class="text-orangeCrayola uppercase text-2xl font-anekLatin mr-4 inline-block">sign in</a>
+					<a href="#" class="text-orangeCrayola uppercase text-2xl font-anekLatin inline-flex items-center justify-center w-[78px] h-[32px] border border-[#ff6d33] rounded-full">join</a>
+				</div>
 			</div>
 		</div>
 	</header>

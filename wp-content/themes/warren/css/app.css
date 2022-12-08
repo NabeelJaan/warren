@@ -565,6 +565,30 @@ video {
   }
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.z-30 {
+  z-index: 30;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
 .m-8 {
   margin: 2rem;
 }
@@ -592,6 +616,18 @@ video {
   margin-top: 1rem;
 }
 
+.mr-4 {
+  margin-right: 1rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.-mt-20 {
+  margin-top: -5rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -600,12 +636,16 @@ video {
   margin-bottom: 0.25rem;
 }
 
-.mb-12 {
-  margin-bottom: 3rem;
+.inline-block {
+  display: inline-block;
 }
 
 .flex {
   display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
 }
 
 .hidden {
@@ -616,8 +656,20 @@ video {
   height: 0.25rem;
 }
 
+.h-\[32px\] {
+  height: 32px;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
 .min-h-screen {
   min-height: 100vh;
+}
+
+.min-h-full {
+  min-height: 100%;
 }
 
 .w-full {
@@ -628,8 +680,24 @@ video {
   width: 4rem;
 }
 
+.w-\[78px\] {
+  width: 78px;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.min-w-full {
+  min-width: 100%;
+}
+
 .max-w-sm {
   max-width: 24rem;
+}
+
+.max-w-none {
+  max-width: none;
 }
 
 .cursor-pointer {
@@ -660,12 +728,29 @@ video {
   justify-content: space-between;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.border {
+  border-width: 1px;
+}
+
 .border-b {
   border-bottom-width: 1px;
+}
+
+.border-\[\#ff6d33\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 109 51 / var(--tw-border-opacity));
 }
 
 .bg-gray-200 {
@@ -676,6 +761,10 @@ video {
 .bg-gray-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
+.bg-transparent {
+  background-color: transparent;
 }
 
 .bg-gray-100 {
@@ -740,11 +829,6 @@ video {
   line-height: 1.25rem;
 }
 
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
 .font-light {
   font-weight: 300;
 }
@@ -755,10 +839,6 @@ video {
 
 .font-extrabold {
   font-weight: 800;
-}
-
-.font-normal {
-  font-weight: 400;
 }
 
 .uppercase {
@@ -789,7 +869,7 @@ video {
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
-.text-darkGrey {
+.text-orangeCrayola {
   --tw-text-opacity: 1;
   color: rgb(255 109 51 / var(--tw-text-opacity));
 }
