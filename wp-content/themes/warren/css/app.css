@@ -565,12 +565,28 @@ video {
   }
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
 
 .relative {
   position: relative;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
 }
 
 .z-50 {
@@ -620,10 +636,6 @@ video {
   margin-right: 1rem;
 }
 
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
 .-mt-20 {
   margin-top: -5rem;
 }
@@ -634,6 +646,10 @@ video {
 
 .mb-1 {
   margin-bottom: 0.25rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
 }
 
 .inline-block {
@@ -662,15 +678,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.h-full {
-  height: 100%;
 }
 
 .min-h-screen {
@@ -707,6 +714,10 @@ video {
 
 .max-w-none {
   max-width: none;
+}
+
+.max-w-\[1500px\] {
+  max-width: 1500px;
 }
 
 .cursor-pointer {
@@ -843,21 +854,13 @@ video {
   line-height: 1.75rem;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
 .text-\[180px\] {
   font-size: 180px;
 }
 
-.text-\[150px\] {
-  font-size: 150px;
-}
-
-.text-\[120px\] {
-  font-size: 120px;
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-light {
@@ -876,24 +879,12 @@ video {
   text-transform: uppercase;
 }
 
-.leading-tight {
-  line-height: 1.25;
-}
-
 .leading-\[180px\] {
   line-height: 180px;
 }
 
-.leading-\[120px\] {
-  line-height: 120px;
-}
-
-.leading-\[150px\] {
-  line-height: 150px;
-}
-
-.leading-\[80px\] {
-  line-height: 80px;
+.leading-tight {
+  line-height: 1.25;
 }
 
 .text-gray-800 {
@@ -911,14 +902,14 @@ video {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
-.text-gray-600 {
-  --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
-}
-
 .text-orangeCrayola {
   --tw-text-opacity: 1;
   color: rgb(255 109 51 / var(--tw-text-opacity));
+}
+
+.text-isabelline {
+  --tw-text-opacity: 1;
+  color: rgb(240 235 229 / var(--tw-text-opacity));
 }
 
 .text-gray-700 {
@@ -931,11 +922,6 @@ video {
   color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
-.text-isabelline {
-  --tw-text-opacity: 1;
-  color: rgb(240 235 229 / var(--tw-text-opacity));
-}
-
 .underline {
   text-decoration-line: underline;
 }
@@ -943,6 +929,10 @@ video {
 .antialiased {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.mix-blend-difference {
+  mix-blend-mode: difference;
 }
 
 .alignfull {

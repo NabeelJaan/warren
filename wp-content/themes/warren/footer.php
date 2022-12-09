@@ -17,6 +17,13 @@
 
 </div>
 
+
+
+
+<script>
+	const logo = documemnt.querySelector( '' );
+</script>
+
 <?php wp_footer(); ?>
 
 </body>

@@ -21,7 +21,7 @@
 
 	<?php do_action( 'tailpress_header' ); ?>
 
-	<header>
+	<header class="fixed top-0 left-0 right-0 z-50">
 
 		<div class="bg-transparent relative z-50">
 			<div class="lg:flex lg:justify-between lg:items-center px-4 py-6">
@@ -33,10 +33,6 @@
 							<a href="<?php echo get_bloginfo( 'url' ); ?>" class="font-extrabold text-lg uppercase">
 								<?php echo get_bloginfo( 'name' ); ?>
 							</a>
-
-							<p class="text-sm font-light text-gray-600">
-								<?php echo get_bloginfo( 'description' ); ?>
-							</p>
 
 						<?php } ?>
 					</div>
