@@ -1,0 +1,536 @@
+0000.001 (0) Opened log file at time: Fri, 09 Dec 2022 17:04:40 +0000 on http://localhost/warren
+0000.015 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.4.25 WP: 6.1.1 PHP: 7.4.30 (apache2handler, Windows NT DESKTOP-MOCLPOK 10.0 build 19044 (Windows 10) AMD64) MySQL: 10.4.25-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.30 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 41.9M | 20M) multisite: N openssl: OpenSSL 1.1.1o  3 May 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.019 (0) Free space on disk containing Updraft's temporary directory: 33943.2 MB
+0000.032 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.038 (0) Semaphore (fd, wp_warrenoptions) being initialised
+0000.050 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.060 (0) Set semaphore last lock (fd) time to 2022-12-09 17:04:41
+0000.064 (0) Semaphore lock (fd) complete
+0000.083 (0) Backup run: resumption=0, nonce=7ac6bea237a1, file_nonce=7ac6bea237a1 begun at=1670605480 (1s ago), job type=backup, label=Backup of: localhost/warren
+0000.094 (0) Scheduling a resumption (1) after 300 seconds (1670605781) in case this run gets aborted
+0000.111 (0) Checking if we have a zip executable available
+0000.122 (0) Creation of backups of directories: beginning
+0000.138 (0) Beginning creation of dump of plugins (split every: 100 MB)
+0000.894 (0) Total entities for the zip file: 359 directories, 2298 files (0 skipped as non-modified), 32.6 MB
+0000.928 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.960 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.991 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.021 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.053 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.084 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.115 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.145 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.182 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.214 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.224 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (25 MB, 2298 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0005.288 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip.tmp: 1100 files added (on-disk size: 6949.2 KB)
+0005.320 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip.tmp: 1200 files added (on-disk size: 6949.2 KB)
+0005.355 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip.tmp: 1300 files added (on-disk size: 6949.2 KB)
+0005.389 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip.tmp: 1400 files added (on-disk size: 6949.2 KB)
+0005.420 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip.tmp: 1500 files added (on-disk size: 6949.2 KB)
+0005.453 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip.tmp: 1600 files added (on-disk size: 6949.2 KB)
+0005.484 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip.tmp: 1700 files added (on-disk size: 6949.2 KB)
+0005.515 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip.tmp: 1800 files added (on-disk size: 6949.2 KB)
+0005.562 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip.tmp: 1900 files added (on-disk size: 6949.2 KB)
+0005.596 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip.tmp: 2000 files added (on-disk size: 6949.2 KB)
+0005.601 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.3 MB, 2298 files batched, 1001 (2002) added so far); re-opening (prior size: 6949.2 KB)
+0006.258 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip.tmp: 2100 files added (on-disk size: 8895.5 KB)
+0006.306 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip.tmp: 2200 files added (on-disk size: 8895.5 KB)
+0006.659 (0) Creating zip file manifest (C:\xampp\htdocs\warren/wp-content/updraft/backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip.list-temp.tmp)
+0006.677 (0) Successfully created zip file manifest (size: 206100)
+0006.772 (0) Created plugins zip (0) - 9358.8 KB in 6.6 s (1412 KB/s) (sha1: 704361250331632acd64c4b9bc80161df8076f51, sha256: 009e77d7f40b785097ec2070bd4c38f8e7af950f77dfeae26991059474a9df49)
+0006.787 (0) Beginning creation of dump of themes (split every: 100 MB)
+0036.425 (0) Total entities for the zip file: 3542 directories, 20130 files (0 skipped as non-modified), 129 MB
+0036.445 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0036.885 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 100 files added (on-disk size: 650.1 KB)
+0036.973 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 200 files added (on-disk size: 650.1 KB)
+0037.080 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 300 files added (on-disk size: 650.1 KB)
+0037.212 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 400 files added (on-disk size: 650.1 KB)
+0037.325 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 500 files added (on-disk size: 650.1 KB)
+0037.435 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 600 files added (on-disk size: 650.1 KB)
+0037.534 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 700 files added (on-disk size: 650.1 KB)
+0037.652 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 800 files added (on-disk size: 650.1 KB)
+0037.748 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 900 files added (on-disk size: 650.1 KB)
+0037.859 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 1000 files added (on-disk size: 650.1 KB)
+0037.874 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.7 MB, 20130 files batched, 1001 (1002) added so far); re-opening (prior size: 650.1 KB)
+0048.202 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 1100 files added (on-disk size: 3203.3 KB)
+0048.247 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 1200 files added (on-disk size: 3203.3 KB)
+0048.290 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 1300 files added (on-disk size: 3203.3 KB)
+0048.340 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 1400 files added (on-disk size: 3203.3 KB)
+0048.386 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 1500 files added (on-disk size: 3203.3 KB)
+0048.437 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 1600 files added (on-disk size: 3203.3 KB)
+0048.487 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 1700 files added (on-disk size: 3203.3 KB)
+0048.528 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 1800 files added (on-disk size: 3203.3 KB)
+0048.575 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 1900 files added (on-disk size: 3203.3 KB)
+0048.634 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 2000 files added (on-disk size: 3203.3 KB)
+0048.641 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (3 MB, 20130 files batched, 1001 (2003) added so far); re-opening (prior size: 3203.3 KB)
+0057.760 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 2100 files added (on-disk size: 4398.5 KB)
+0057.847 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 2200 files added (on-disk size: 4398.5 KB)
+0057.943 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 2300 files added (on-disk size: 4398.5 KB)
+0058.035 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 2400 files added (on-disk size: 4398.5 KB)
+0058.131 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 2500 files added (on-disk size: 4398.5 KB)
+0058.230 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 2600 files added (on-disk size: 4398.5 KB)
+0058.324 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 2700 files added (on-disk size: 4398.5 KB)
+0058.435 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 2800 files added (on-disk size: 4398.5 KB)
+0058.529 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 2900 files added (on-disk size: 4398.5 KB)
+0058.635 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 3000 files added (on-disk size: 4398.5 KB)
+0058.653 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2.9 MB, 20130 files batched, 1001 (3004) added so far); re-opening (prior size: 4398.5 KB)
+0074.173 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 3100 files added (on-disk size: 5362.5 KB)
+0074.269 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 3200 files added (on-disk size: 5362.5 KB)
+0074.350 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 3300 files added (on-disk size: 5362.5 KB)
+0074.433 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 3400 files added (on-disk size: 5362.5 KB)
+0074.553 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 3500 files added (on-disk size: 5362.5 KB)
+0074.648 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 3600 files added (on-disk size: 5362.5 KB)
+0074.772 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 3700 files added (on-disk size: 5362.5 KB)
+0074.870 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 3800 files added (on-disk size: 5362.5 KB)
+0074.979 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 3900 files added (on-disk size: 5362.5 KB)
+0075.068 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 4000 files added (on-disk size: 5362.5 KB)
+0075.085 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (0.3 MB, 20130 files batched, 1001 (4005) added so far); re-opening (prior size: 5362.5 KB)
+0089.566 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 4100 files added (on-disk size: 5769.7 KB)
+0089.691 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 4200 files added (on-disk size: 5769.7 KB)
+0089.795 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 4300 files added (on-disk size: 5769.7 KB)
+0089.894 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 4400 files added (on-disk size: 5769.7 KB)
+0090.041 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 4500 files added (on-disk size: 5769.7 KB)
+0090.151 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 4600 files added (on-disk size: 5769.7 KB)
+0090.252 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 4700 files added (on-disk size: 5769.7 KB)
+0090.402 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 4800 files added (on-disk size: 5769.7 KB)
+0090.807 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 4900 files added (on-disk size: 5769.7 KB)
+0090.910 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 5000 files added (on-disk size: 5769.7 KB)
+0090.942 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (1.1 MB, 20130 files batched, 1001 (5006) added so far); re-opening (prior size: 5769.7 KB)
+0099.654 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 5100 files added (on-disk size: 6378.2 KB)
+0099.761 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 5200 files added (on-disk size: 6378.2 KB)
+0099.863 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 5300 files added (on-disk size: 6378.2 KB)
+0099.962 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 5400 files added (on-disk size: 6378.2 KB)
+0100.075 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 5500 files added (on-disk size: 6378.2 KB)
+0100.161 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 5600 files added (on-disk size: 6378.2 KB)
+0100.243 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 5700 files added (on-disk size: 6378.2 KB)
+0100.317 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 5800 files added (on-disk size: 6378.2 KB)
+0100.389 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 5900 files added (on-disk size: 6378.2 KB)
+0100.474 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 6000 files added (on-disk size: 6378.2 KB)
+0100.487 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2 MB, 20130 files batched, 1001 (6007) added so far); re-opening (prior size: 6378.2 KB)
+0114.143 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 6100 files added (on-disk size: 7231.8 KB)
+0114.217 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 6200 files added (on-disk size: 7231.8 KB)
+0114.297 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 6300 files added (on-disk size: 7231.8 KB)
+0114.388 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 6400 files added (on-disk size: 7231.8 KB)
+0114.476 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 6500 files added (on-disk size: 7231.8 KB)
+0114.566 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 6600 files added (on-disk size: 7231.8 KB)
+0114.737 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 6700 files added (on-disk size: 7231.8 KB)
+0114.850 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 6800 files added (on-disk size: 7231.8 KB)
+0114.920 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 6900 files added (on-disk size: 7231.8 KB)
+0114.990 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 7000 files added (on-disk size: 7231.8 KB)
+0115.001 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (0.8 MB, 20130 files batched, 1001 (7008) added so far); re-opening (prior size: 7231.8 KB)
+0125.600 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 7100 files added (on-disk size: 7732.2 KB)
+0125.650 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 7200 files added (on-disk size: 7732.2 KB)
+0125.714 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 7300 files added (on-disk size: 7732.2 KB)
+0125.778 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 7400 files added (on-disk size: 7732.2 KB)
+0125.844 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 7500 files added (on-disk size: 7732.2 KB)
+0125.912 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 7600 files added (on-disk size: 7732.2 KB)
+0125.981 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 7700 files added (on-disk size: 7732.2 KB)
+0126.034 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 7800 files added (on-disk size: 7732.2 KB)
+0126.110 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 7900 files added (on-disk size: 7732.2 KB)
+0126.170 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 8000 files added (on-disk size: 7732.2 KB)
+0126.182 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (0.8 MB, 20130 files batched, 1001 (8009) added so far); re-opening (prior size: 7732.2 KB)
+0133.482 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 8100 files added (on-disk size: 8214.9 KB)
+0133.567 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 8200 files added (on-disk size: 8214.9 KB)
+0133.630 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 8300 files added (on-disk size: 8214.9 KB)
+0133.717 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 8400 files added (on-disk size: 8214.9 KB)
+0133.775 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 8500 files added (on-disk size: 8214.9 KB)
+0133.885 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 8600 files added (on-disk size: 8214.9 KB)
+0133.976 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 8700 files added (on-disk size: 8214.9 KB)
+0134.090 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 8800 files added (on-disk size: 8214.9 KB)
+0134.162 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 8900 files added (on-disk size: 8214.9 KB)
+0134.417 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 9000 files added (on-disk size: 8214.9 KB)
+0134.493 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (1.3 MB, 20130 files batched, 1001 (9010) added so far); re-opening (prior size: 8214.9 KB)
+0146.197 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 9100 files added (on-disk size: 8841.6 KB)
+0146.280 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 9200 files added (on-disk size: 8841.6 KB)
+0146.378 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 9300 files added (on-disk size: 8841.6 KB)
+0146.482 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 9400 files added (on-disk size: 8841.6 KB)
+0146.576 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 9500 files added (on-disk size: 8841.6 KB)
+0146.657 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 9600 files added (on-disk size: 8841.6 KB)
+0146.748 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 9700 files added (on-disk size: 8841.6 KB)
+0146.827 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 9800 files added (on-disk size: 8841.6 KB)
+0146.934 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 9900 files added (on-disk size: 8841.6 KB)
+0147.002 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 10000 files added (on-disk size: 8841.6 KB)
+0147.018 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (0.7 MB, 20130 files batched, 1001 (10011) added so far); re-opening (prior size: 8841.6 KB)
+0158.654 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 10100 files added (on-disk size: 9323.2 KB)
+0158.768 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 10200 files added (on-disk size: 9323.2 KB)
+0158.875 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 10300 files added (on-disk size: 9323.2 KB)
+0158.951 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 10400 files added (on-disk size: 9323.2 KB)
+0159.056 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 10500 files added (on-disk size: 9323.2 KB)
+0159.206 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 10600 files added (on-disk size: 9323.2 KB)
+0159.360 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 10700 files added (on-disk size: 9323.2 KB)
+0159.519 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 10800 files added (on-disk size: 9323.2 KB)
+0159.656 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 10900 files added (on-disk size: 9323.2 KB)
+0159.754 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 11000 files added (on-disk size: 9323.2 KB)
+0159.771 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (1.3 MB, 20130 files batched, 1001 (11012) added so far); re-opening (prior size: 9323.2 KB)
+0173.358 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 11100 files added (on-disk size: 9950.3 KB)
+0173.428 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 11200 files added (on-disk size: 9950.3 KB)
+0173.487 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 11300 files added (on-disk size: 9950.3 KB)
+0173.543 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 11400 files added (on-disk size: 9950.3 KB)
+0173.596 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 11500 files added (on-disk size: 9950.3 KB)
+0173.657 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 11600 files added (on-disk size: 9950.3 KB)
+0173.721 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 11700 files added (on-disk size: 9950.3 KB)
+0173.781 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 11800 files added (on-disk size: 9950.3 KB)
+0173.850 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 11900 files added (on-disk size: 9950.3 KB)
+0173.929 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 12000 files added (on-disk size: 9950.3 KB)
+0173.954 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2.9 MB, 20130 files batched, 1001 (12013) added so far); re-opening (prior size: 9950.3 KB)
+0181.532 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 12100 files added (on-disk size: 10905.9 KB)
+0181.582 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 12200 files added (on-disk size: 10905.9 KB)
+0181.632 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 12300 files added (on-disk size: 10905.9 KB)
+0181.682 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 12400 files added (on-disk size: 10905.9 KB)
+0181.731 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 12500 files added (on-disk size: 10905.9 KB)
+0181.782 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 12600 files added (on-disk size: 10905.9 KB)
+0181.833 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 12700 files added (on-disk size: 10905.9 KB)
+0181.881 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 12800 files added (on-disk size: 10905.9 KB)
+0181.930 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 12900 files added (on-disk size: 10905.9 KB)
+0181.977 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 13000 files added (on-disk size: 10905.9 KB)
+0181.994 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.6 MB, 20130 files batched, 1001 (13014) added so far); re-opening (prior size: 10905.9 KB)
+0191.193 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 13100 files added (on-disk size: 14962.3 KB)
+0191.238 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 13200 files added (on-disk size: 14962.3 KB)
+0191.284 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 13300 files added (on-disk size: 14962.3 KB)
+0191.330 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 13400 files added (on-disk size: 14962.3 KB)
+0191.373 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 13500 files added (on-disk size: 14962.3 KB)
+0191.419 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 13600 files added (on-disk size: 14962.3 KB)
+0191.465 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 13700 files added (on-disk size: 14962.3 KB)
+0191.510 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 13800 files added (on-disk size: 14962.3 KB)
+0191.557 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 13900 files added (on-disk size: 14962.3 KB)
+0191.607 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 14000 files added (on-disk size: 14962.3 KB)
+0191.623 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (1.9 MB, 20130 files batched, 1001 (14015) added so far); re-opening (prior size: 14962.3 KB)
+0197.811 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 14100 files added (on-disk size: 15711.2 KB)
+0197.862 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 14200 files added (on-disk size: 15711.2 KB)
+0197.911 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 14300 files added (on-disk size: 15711.2 KB)
+0197.962 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 14400 files added (on-disk size: 15711.2 KB)
+0198.008 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 14500 files added (on-disk size: 15711.2 KB)
+0198.067 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 14600 files added (on-disk size: 15711.2 KB)
+0198.123 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 14700 files added (on-disk size: 15711.2 KB)
+0198.175 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 14800 files added (on-disk size: 15711.2 KB)
+0198.233 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 14900 files added (on-disk size: 15711.2 KB)
+0198.282 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 15000 files added (on-disk size: 15711.2 KB)
+0198.294 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.2 MB, 20130 files batched, 1001 (15016) added so far); re-opening (prior size: 15711.2 KB)
+0205.788 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 15100 files added (on-disk size: 17872.5 KB)
+0205.832 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 15200 files added (on-disk size: 17872.5 KB)
+0205.876 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 15300 files added (on-disk size: 17872.5 KB)
+0205.920 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 15400 files added (on-disk size: 17872.5 KB)
+0205.969 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 15500 files added (on-disk size: 17872.5 KB)
+0206.015 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 15600 files added (on-disk size: 17872.5 KB)
+0206.062 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 15700 files added (on-disk size: 17872.5 KB)
+0206.107 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 15800 files added (on-disk size: 17872.5 KB)
+0206.153 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 15900 files added (on-disk size: 17872.5 KB)
+0206.201 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 16000 files added (on-disk size: 17872.5 KB)
+0206.225 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.7 MB, 20130 files batched, 1001 (16017) added so far); re-opening (prior size: 17872.5 KB)
+0212.302 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 16100 files added (on-disk size: 19153.5 KB)
+0212.346 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 16200 files added (on-disk size: 19153.5 KB)
+0212.392 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 16300 files added (on-disk size: 19153.5 KB)
+0212.445 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 16400 files added (on-disk size: 19153.5 KB)
+0212.496 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 16500 files added (on-disk size: 19153.5 KB)
+0212.540 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 16600 files added (on-disk size: 19153.5 KB)
+0212.585 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 16700 files added (on-disk size: 19153.5 KB)
+0212.630 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 16800 files added (on-disk size: 19153.5 KB)
+0212.675 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 16900 files added (on-disk size: 19153.5 KB)
+0212.720 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 17000 files added (on-disk size: 19153.5 KB)
+0212.732 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2.4 MB, 20130 files batched, 1001 (17018) added so far); re-opening (prior size: 19153.5 KB)
+0218.787 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 17100 files added (on-disk size: 20181.5 KB)
+0218.837 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 17200 files added (on-disk size: 20181.5 KB)
+0218.885 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 17300 files added (on-disk size: 20181.5 KB)
+0218.929 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 17400 files added (on-disk size: 20181.5 KB)
+0218.972 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 17500 files added (on-disk size: 20181.5 KB)
+0219.018 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 17600 files added (on-disk size: 20181.5 KB)
+0219.063 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 17700 files added (on-disk size: 20181.5 KB)
+0219.106 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 17800 files added (on-disk size: 20181.5 KB)
+0219.150 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 17900 files added (on-disk size: 20181.5 KB)
+0219.196 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 18000 files added (on-disk size: 20181.5 KB)
+0219.210 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (1.3 MB, 20130 files batched, 1001 (18019) added so far); re-opening (prior size: 20181.5 KB)
+0224.509 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 18100 files added (on-disk size: 20835.9 KB)
+0224.554 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 18200 files added (on-disk size: 20835.9 KB)
+0224.599 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 18300 files added (on-disk size: 20835.9 KB)
+0224.648 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 18400 files added (on-disk size: 20835.9 KB)
+0224.691 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 18500 files added (on-disk size: 20835.9 KB)
+0224.735 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 18600 files added (on-disk size: 20835.9 KB)
+0224.781 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 18700 files added (on-disk size: 20835.9 KB)
+0224.825 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 18800 files added (on-disk size: 20835.9 KB)
+0224.869 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 18900 files added (on-disk size: 20835.9 KB)
+0224.946 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 19000 files added (on-disk size: 20835.9 KB)
+0224.982 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (1.6 MB, 20130 files batched, 1001 (19020) added so far); re-opening (prior size: 20835.9 KB)
+0230.745 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 19100 files added (on-disk size: 21611.7 KB)
+0230.831 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 19200 files added (on-disk size: 21611.7 KB)
+0230.925 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 19300 files added (on-disk size: 21611.7 KB)
+0231.001 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 19400 files added (on-disk size: 21611.7 KB)
+0231.100 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 19500 files added (on-disk size: 21611.7 KB)
+0231.201 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 19600 files added (on-disk size: 21611.7 KB)
+0231.285 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 19700 files added (on-disk size: 21611.7 KB)
+0231.385 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 19800 files added (on-disk size: 21611.7 KB)
+0231.425 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (30 MB, 20130 files batched, 826 (19846) added so far); re-opening (prior size: 21611.7 KB)
+0240.855 (0) A useful amount of data was added after this amount of zip processing: 10.8 s (normalised: 9.1 s, rate: 2828.2 KB/s)
+0240.863 (0) Performance is good - will increase the amount of data we attempt to batch (time=10.849287033081, normalised_time=9.0516704583057, max_time=240.85844016075, data points known=1, old_max_bytes=26214400, new_max_bytes=104857600)
+0241.053 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 19900 files added (on-disk size: 27558.9 KB)
+0241.132 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 20000 files added (on-disk size: 27558.9 KB)
+0241.217 (0) Zip: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.tmp: 20100 files added (on-disk size: 27558.9 KB)
+0248.495 (0) Creating zip file manifest (C:\xampp\htdocs\warren/wp-content/updraft/backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.list-temp.tmp)
+0248.608 (0) Successfully created zip file manifest (size: 1650570)
+0248.925 (0) Created themes zip (0) - 35500.6 KB in 242.1 s (146.6 KB/s) (sha1: b18812633f7595613cc844b4ed4c7266653496bb, sha256: ca184007d48050a247476ee01f34778e4683ed53e4f2d48ceb8ebf5e1dfaf37b)
+0248.935 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0248.939 (0) Looking for candidates to backup in: C:\xampp\htdocs\warren/wp-content/uploads
+0248.943 (0) finding files: 2022: adding to list (1)
+0248.946 (0) Beginning creation of dump of uploads (split every: 100 MB)
+0248.979 (0) Total entities for the zip file: 2 directories, 39 files (0 skipped as non-modified), 0.4 MB
+0249.125 (0) Creating zip file manifest (C:\xampp\htdocs\warren/wp-content/updraft/backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-uploads.zip.list-temp.tmp)
+0249.130 (0) Successfully created zip file manifest (size: 2064)
+0249.148 (0) Created uploads zip (0) - 440.8 KB in 0.2 s (2254.8 KB/s) (sha1: 926bcbab5ef3655e2dea819e41dedf89f434c44f, sha256: 2b7ed105838bab5199e411b10f548d52c6022d9b296da10474759ce5ea545335)
+0249.153 (0) No backup of wpcore: excluded by user's options
+0249.161 (0) Beginning backup of other directories found in the content directory (index: 0)
+0249.166 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0249.170 (0) Looking for candidates to backup in: C:\xampp\htdocs\warren/wp-content
+0249.174 (0) finding files: index.php: adding to list (1)
+0249.177 (0) finding files: plugins: skipping: this is the plugins directory
+0249.181 (0) finding files: themes: skipping: this is the themes directory
+0249.184 (0) finding files: updraft: skipping: this is the updraft directory
+0249.188 (0) finding files: upgrade: skipping: excluded by options
+0249.191 (0) finding files: uploads: skipping: this is the uploads directory
+0249.203 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0249.223 (0) Creating zip file manifest (C:\xampp\htdocs\warren/wp-content/updraft/backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-others.zip.list-temp.tmp)
+0249.235 (0) Successfully created zip file manifest (size: 43)
+0249.255 (0) Created others zip (0) - 0.1 KB in 0.1 s (2.5 KB/s) (sha1: ed69a14ad944ff662a1b26a9260604367eef061d, sha256: 7f971f74e852df813107f6ec0bf3e0b55f4cb203b276938025231ed09bf9b112)
+0249.260 (0) No backup of more: excluded by user's options
+0249.279 (0) Saving backup status to database (elements: 8)
+0249.287 (0) Beginning creation of database dump (WordPress DB)
+0249.301 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0249.394 (0) Table wp_warrenoptions: Total expected rows (via COUNT): 182
+0249.398 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0249.416 (0) Table wp_warrenoptions: Rows added in this batch (next record: 373): 178 (uncompressed bytes in this segment=110038) in 0.04 seconds
+0249.441 (0) Table wp_warrenoptions: finishing file(s) (2, 23.4 KB)
+0249.457 (0) Table wp_warrenusers: Total expected rows (via COUNT): 1
+0249.462 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0249.472 (0) Table wp_warrenusers: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1453) in 0.02 seconds
+0249.489 (0) Table wp_warrenusers: finishing file(s) (2, 0.6 KB)
+0249.524 (0) Table wp_warrenusermeta: Total expected rows (via COUNT): 22
+0249.529 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0249.535 (0) Table wp_warrenusermeta: Rows added in this batch (next record: 22): 22 (uncompressed bytes in this segment=2821) in 0.03 seconds
+0249.555 (0) Table wp_warrenusermeta: finishing file(s) (2, 1.3 KB)
+0249.573 (0) Table wp_warrencommentmeta: Total expected rows (via COUNT): 0
+0249.587 (0) Table wp_warrencommentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=732) in 0.02 seconds
+0249.606 (0) Table wp_warrencommentmeta: finishing file(s) (2, 0.4 KB)
+0249.621 (0) Table wp_warrencomments: Total expected rows (via COUNT): 1
+0249.625 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0249.634 (0) Table wp_warrencomments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2175) in 0.02 seconds
+0249.649 (0) Table wp_warrencomments: finishing file(s) (2, 0.8 KB)
+0249.672 (0) Table wp_warrenlinks: Total expected rows (via COUNT): 0
+0249.681 (0) Table wp_warrenlinks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1342) in 0.01 seconds
+0249.697 (0) Table wp_warrenlinks: finishing file(s) (2, 0.5 KB)
+0249.718 (0) Table wp_warrenpostmeta: Total expected rows (via COUNT): 25
+0249.723 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0249.732 (0) Table wp_warrenpostmeta: Rows added in this batch (next record: 27): 25 (uncompressed bytes in this segment=9278) in 0.02 seconds
+0249.753 (0) Table wp_warrenpostmeta: finishing file(s) (2, 1.6 KB)
+0249.776 (0) Table wp_warrenposts: Total expected rows (via COUNT): 17
+0249.780 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0249.790 (0) Table wp_warrenposts: Rows added in this batch (next record: 19): 17 (uncompressed bytes in this segment=20276) in 0.03 seconds
+0249.816 (0) Table wp_warrenposts: finishing file(s) (2, 3.8 KB)
+0249.828 (0) Table wp_warrenterm_relationships: Total expected rows (approximate): 2
+0249.838 (0) Table wp_warrenterm_relationships: Rows added in this batch (next record: 100000): 2 (uncompressed bytes in this segment=750) in 0.01 seconds
+0249.853 (0) Table wp_warrenterm_relationships: finishing file(s) (2, 0.4 KB)
+0249.873 (0) Table wp_warrenterm_taxonomy: Total expected rows (via COUNT): 2
+0249.876 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0249.884 (0) Table wp_warrenterm_taxonomy: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=993) in 0.02 seconds
+0249.902 (0) Table wp_warrenterm_taxonomy: finishing file(s) (2, 0.5 KB)
+0249.926 (0) Table wp_warrentermmeta: Total expected rows (via COUNT): 0
+0249.935 (0) Table wp_warrentermmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=705) in 0.02 seconds
+0249.954 (0) Table wp_warrentermmeta: finishing file(s) (2, 0.4 KB)
+0249.966 (0) Table wp_warrenterms: Total expected rows (via COUNT): 2
+0249.970 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0249.982 (0) Table wp_warrenterms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=805) in 0.02 seconds
+0249.998 (0) Table wp_warrenterms: finishing file(s) (2, 0.4 KB)
+0250.004 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db-table-wp_warrenoptions.table.tmpr374.gz (1/12/fopen): adding to final database dump
+0250.014 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db-table-wp_warrenoptions.table.gz (2/12/fopen): adding to final database dump
+0250.018 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db-table-wp_warrenusers.table.tmpr2.gz (3/12/fopen): adding to final database dump
+0250.023 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db-table-wp_warrenusers.table.gz (4/12/fopen): adding to final database dump
+0250.027 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db-table-wp_warrenusermeta.table.tmpr23.gz (5/12/fopen): adding to final database dump
+0250.031 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db-table-wp_warrenusermeta.table.gz (6/12/fopen): adding to final database dump
+0250.036 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db-table-wp_warrencommentmeta.table.tmpr0.gz (7/12/fopen): adding to final database dump
+0250.045 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db-table-wp_warrencommentmeta.table.gz (8/12/fopen): adding to final database dump
+0250.049 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db-table-wp_warrencomments.table.tmpr2.gz (9/12/fopen): adding to final database dump
+0250.053 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db-table-wp_warrencomments.table.gz (10/12/fopen): adding to final database dump
+0250.057 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db-table-wp_warrenlinks.table.tmpr0.gz (11/12/fopen): adding to final database dump
+0250.061 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db-table-wp_warrenlinks.table.gz (12/12/fopen): adding to final database dump
+0250.072 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db-table-wp_warrenpostmeta.table.tmpr28.gz (13/12/fopen): adding to final database dump
+0250.077 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db-table-wp_warrenpostmeta.table.gz (14/12/fopen): adding to final database dump
+0250.082 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db-table-wp_warrenposts.table.tmpr20.gz (15/12/fopen): adding to final database dump
+0250.087 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db-table-wp_warrenposts.table.gz (16/12/fopen): adding to final database dump
+0250.091 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db-table-wp_warrenterm_relationships.table.tmpr100001.gz (17/12/fopen): adding to final database dump
+0250.095 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db-table-wp_warrenterm_relationships.table.gz (18/12/fopen): adding to final database dump
+0250.099 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db-table-wp_warrenterm_taxonomy.table.tmpr3.gz (19/12/fopen): adding to final database dump
+0250.104 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db-table-wp_warrenterm_taxonomy.table.gz (20/12/fopen): adding to final database dump
+0250.108 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db-table-wp_warrentermmeta.table.tmpr0.gz (21/12/fopen): adding to final database dump
+0250.113 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db-table-wp_warrentermmeta.table.gz (22/12/fopen): adding to final database dump
+0250.118 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db-table-wp_warrenterms.table.tmpr3.gz (23/12/fopen): adding to final database dump
+0250.123 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db-table-wp_warrenterms.table.gz (24/12/fopen): adding to final database dump
+0250.156 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db.gz: finished writing out complete database file (34.2 KB)
+0250.191 (0) Total database tables backed up: 12 (backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db.gz, size: 35127, sha1: 7632ab216ff54c90bc869ab79fc61db1e9dfa82e, sha256: af1eb0a1acae27bf182d9a8eb31bd659dac3a0689fe4203efcccebb474cdfae1)
+0250.211 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0250.219 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0250.223 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0250.228 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-others.zip: others: This file has not yet been successfully uploaded: will queue
+0250.232 (0) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db.gz: db: This file has not yet been successfully uploaded: will queue
+0250.236 (0) Saving backup history. Total backup size: 44.3 MB
+0250.245 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0250.258 (0) Cloud backup selection (1/1): remotesend with instance (1/1) (last)
+0250.263 (0) Beginning dispatch of backup to remote (remotesend)
+0250.287 (0) remotesend: upload : attempt: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip
+0251.801 (0) remotesend: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip: existing size: 0
+0251.805 (0) Remote send upload: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip (chunks: 5, of size: 2097152) -> remotesend://https://warren3.xyz/backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip (0)
+0300.981 (1) Opened log file at time: Fri, 09 Dec 2022 17:09:41 +0000 on http://localhost/warren
+0300.985 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.4.25 WP: 6.1.1 PHP: 7.4.30 (apache2handler, Windows NT DESKTOP-MOCLPOK 10.0 build 19044 (Windows 10) AMD64) MySQL: 10.4.25-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.30 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 36.8M | 6M) multisite: N openssl: OpenSSL 1.1.1o  3 May 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0300.989 (1) Free space on disk containing Updraft's temporary directory: 33907.7 MB
+0301.002 (1) Requesting backup semaphore lock (7ac6bea237a1)
+0301.029 (1) [Debug] Lock option (updraft_lock_7ac6bea237a1, wp_warrenoptions) was created in the database
+0301.034 (1) [Info] Lock (updraft_lock_7ac6bea237a1, wp_warrenoptions) acquired after initialising the database
+0301.042 (1) Backup run: resumption=1, nonce=7ac6bea237a1, file_nonce=7ac6bea237a1 begun at=1670605480 (302s ago), job type=backup, previous check-in=249.99s
+0301.054 (1) Scheduling a resumption (2) after 300 seconds (1670606082) in case this run gets aborted
+0301.110 (1) Checking if we have a zip executable available
+0301.114 (1) Creation of backups of directories: already finished
+0301.119 (1) Saving backup status to database (elements: 8)
+0301.130 (1) Database dump (WordPress DB): Creation was completed already
+0301.135 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0301.149 (1) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0301.153 (1) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0301.157 (1) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0301.161 (1) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-others.zip: others: This file has not yet been successfully uploaded: will queue
+0301.165 (1) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db.gz: db: This file has not yet been successfully uploaded: will queue
+0301.169 (1) Saving backup history. Total backup size: 44.3 MB
+0301.179 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0301.183 (1) Cloud backup selection (1/1): remotesend with instance (1/1) (last)
+0301.187 (1) Beginning dispatch of backup to remote (remotesend)
+0301.201 (1) remotesend: upload : attempt: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip
+0302.821 (1) remotesend: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip: existing size: 0
+0302.825 (1) Remote send upload: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip (chunks: 5, of size: 2097152) -> remotesend://https://warren3.xyz/backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip (0)
+0329.570 (0) The time we have been running (329.6) is approaching the resumption interval (300) - increasing resumption interval to 360
+0329.580 (0) Remotesend chunked upload: 21.9 % uploaded (1)
+0385.817 (0) The time we have been running (385.8) is approaching the resumption interval (360) - increasing resumption interval to 416
+0385.826 (0) Remotesend chunked upload: 43.8 % uploaded (2)
+0390.215 (1) Remotesend chunked upload: 21.9 % uploaded (1)
+0428.765 (1) Remotesend chunked upload: 65.6 % uploaded (3)
+0438.502 (0) The time we have been running (438.5) is approaching the resumption interval (416) - increasing resumption interval to 469
+0438.514 (0) Remotesend chunked upload: 65.6 % uploaded (3)
+0454.099 (1) Remotesend chunked upload: 87.5 % uploaded (4)
+0454.118 (1) Remote send upload: success
+0454.122 (1) Recording as successfully uploaded: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip
+0454.131 (1) Deleting local file: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip: OK
+0454.135 (1) Deleting zip manifest (backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip.list.tmp)
+0454.139 (1) remotesend: upload : attempt: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip
+0455.398 (1) remotesend: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip: existing size: 0
+0455.402 (1) Remote send upload: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip (chunks: 18, of size: 2097152) -> remotesend://https://warren3.xyz/backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip (0)
+0471.364 (0) PHP event: code E_WARNING: touch(): Unable to create file C:\xampp\htdocs\warren/wp-content/updraft/backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip because Permission denied (line 1294, C:\xampp\htdocs\warren\wp-content\plugins\updraftplus\class-updraftplus.php)
+0471.379 (0) The time we have been running (471.4) is approaching the resumption interval (469) - increasing resumption interval to 502
+0471.387 (0) Remotesend chunked upload: 100 % uploaded (5)
+0471.394 (0) Remote send upload: success
+0471.400 (0) Recording as successfully uploaded: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip
+0471.408 (0) remotesend: upload : attempt: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip
+0472.470 (0) remotesend: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip: existing size: 0
+0472.474 (0) Remote send upload: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip (chunks: 18, of size: 2097152) -> remotesend://https://warren3.xyz/backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip (0)
+0520.361 (1) Remotesend chunked upload: 5.8 % uploaded (1)
+0523.448 (0) The time we have been running (523.4) is approaching the resumption interval (502) - increasing resumption interval to 554
+0523.455 (0) Remotesend chunked upload: 5.8 % uploaded (1)
+0571.332 (1) The time we have been running (270.3) is approaching the resumption interval (300) - increasing resumption interval to 301
+0571.341 (1) The scheduled resumption is within 45 seconds - will reschedule
+0571.349 (1) Rescheduling resumption 2: moving to 346 seconds from now (1670606398)
+0571.362 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 301 + 45 = 346
+0571.368 (1) Remotesend chunked upload: 11.5 % uploaded (2)
+0589.163 (0) The time we have been running (589.2) is approaching the resumption interval (554) - increasing resumption interval to 620
+0589.171 (0) Remotesend chunked upload: 11.5 % uploaded (2)
+0600.748 (1) Remotesend chunked upload: 17.3 % uploaded (3)
+0665.714 (0) The time we have been running (665.7) is approaching the resumption interval (620) - increasing resumption interval to 696
+0665.727 (0) Remotesend chunked upload: 23.1 % uploaded (4)
+0666.250 (1) The time we have been running (365.3) is approaching the resumption interval (346) - increasing resumption interval to 396
+0666.264 (1) Remotesend chunked upload: 28.8 % uploaded (5)
+0724.481 (1) The time we have been running (423.5) is approaching the resumption interval (396) - increasing resumption interval to 454
+0724.489 (1) Remotesend chunked upload: 40.4 % uploaded (7)
+0756.133 (0) The time we have been running (756.1) is approaching the resumption interval (696) - increasing resumption interval to 787
+0756.143 (0) Remotesend chunked upload: 34.6 % uploaded (6)
+0790.955 (1) The time we have been running (490) is approaching the resumption interval (454) - increasing resumption interval to 520
+0790.963 (1) Remotesend chunked upload: 46.2 % uploaded (8)
+0830.331 (0) The time we have been running (830.3) is approaching the resumption interval (787) - increasing resumption interval to 861
+0830.339 (0) Remotesend chunked upload: 51.9 % uploaded (9)
+0874.280 (1) The time we have been running (573.3) is approaching the resumption interval (520) - increasing resumption interval to 604
+0874.288 (1) The scheduled resumption is within 45 seconds - will reschedule
+0874.296 (1) Rescheduling resumption 2: moving to 649 seconds from now (1670607004)
+0874.313 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 604 + 45 = 649
+0874.317 (1) Remotesend chunked upload: 57.7 % uploaded (10)
+0881.948 (0) The time we have been running (881.9) is approaching the resumption interval (861) - increasing resumption interval to 912
+0881.956 (0) Remotesend chunked upload: 63.5 % uploaded (11)
+0983.234 (0) The time we have been running (983.2) is approaching the resumption interval (912) - increasing resumption interval to 1014
+0983.242 (0) Remotesend chunked upload: 75 % uploaded (13)
+1017.947 (1) The time we have been running (716.9) is approaching the resumption interval (649) - increasing resumption interval to 747
+1017.955 (1) Remotesend chunked upload: 69.2 % uploaded (12)
+1017.992 (1) The time we have been running (717) is approaching the resumption interval (747) - increasing resumption interval to 748
+1100.497 (0) The time we have been running (1100.5) is approaching the resumption interval (1014) - increasing resumption interval to 1131
+1100.506 (0) Remotesend chunked upload: 80.8 % uploaded (14)
+1153.023 (1) remotesend: upload: error (Exception): (backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip) (Unexpected HTTP response code (503) (unexpected_http_code)) (line: 236, file: C:\xampp\htdocs\warren\wp-content\plugins\updraftplus\methods\remotesend.php)
+1153.029 (1) remotesend: Exception data: YTo2OntzOjc6ImhlYWRlcnMiO086NDI6IlJlcXVlc3RzX1V0aWxpdHlfQ2FzZUluc2Vuc2l0aXZlRGljdGlvbmFyeSI6MTp7czo3OiIAKgBkYXRhIjthOjg6e3M6NDoiZGF0ZSI7czoyOToiRnJpLCAwOSBEZWMgMjAyMiAxNzoyMzo0MiBHTVQiO3M6Njoic2VydmVyIjtzOjc6IlZhcm5pc2giO3M6MTI6ImNvbnRlbnQtdHlwZSI7czoyNDoidGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04IjtzOjExOiJyZXRyeS1hZnRlciI7czoxOiI1IjtzOjM6ImFnZSI7czoxOiIwIjtzOjc6IngtY2FjaGUiO3M6NDoiTUlTUyI7czoxNDoiY29udGVudC1sZW5ndGgiO3M6MzoiMjg0IjtzOjI1OiJzdHJpY3QtdHJhbnNwb3J0LXNlY3VyaXR5IjtzOjE2OiJtYXgtYWdlPTE1NzY4MDAwIjt9fXM6NDoiYm9keSI7czoyODQ6IjwhRE9DVFlQRSBodG1sPgo8aHRtbD4KICA8aGVhZD4KICAgIDx0aXRsZT41MDMgQmFja2VuZCBmZXRjaCBmYWlsZWQ8L3RpdGxlPgogIDwvaGVhZD4KICA8Ym9keT4KICAgIDxoMT5FcnJvciA1MDMgQmFja2VuZCBmZXRjaCBmYWlsZWQ8L2gxPgogICAgPHA+QmFja2VuZCBmZXRjaCBmYWlsZWQ8L3A+CiAgICA8aDM+R3VydSBNZWRpdGF0aW9uOjwvaDM+CiAgICA8cD5YSUQ6IDE3MzY3NTY8L3A+CiAgICA8aHI+CiAgICA8cD5WYXJuaXNoIGNhY2hlIHNlcnZlcjwvcD4KICA8L2JvZHk+CjwvaHRtbD4KIjtzOjg6InJlc3BvbnNlIjthOjI6e3M6NDoiY29kZSI7aTo1MDM7czo3OiJtZXNzYWdlIjtzOjE5OiJTZXJ2aWNlIFVuYXZhaWxhYmxlIjt9czo3OiJjb29raWVzIjthOjA6e31zOjg6ImZpbGVuYW1lIjtOO3M6MTM6Imh0dHBfcmVzcG9uc2UiO086MjU6IldQX0hUVFBfUmVxdWVzdHNfUmVzcG9uc2UiOjU6e3M6MTE6IgAqAHJlc3BvbnNlIjtPOjE3OiJSZXF1ZXN0c19SZXNwb25zZSI6MTA6e3M6NDoiYm9keSI7czoyODQ6IjwhRE9DVFlQRSBodG1sPgo8aHRtbD4KICA8aGVhZD4KICAgIDx0aXRsZT41MDMgQmFja2VuZCBmZXRjaCBmYWlsZWQ8L3RpdGxlPgogIDwvaGVhZD4KICA8Ym9keT4KICAgIDxoMT5FcnJvciA1MDMgQmFja2VuZCBmZXRjaCBmYWlsZWQ8L2gxPgogICAgPHA+QmFja2VuZCBmZXRjaCBmYWlsZWQ8L3A+CiAgICA8aDM+R3VydSBNZWRpdGF0aW9uOjwvaDM+CiAgICA8cD5YSUQ6IDE3MzY3NTY8L3A+CiAgICA8aHI+CiAgICA8cD5WYXJuaXNoIGNhY2hlIHNlcnZlcjwvcD4KICA8L2JvZHk+CjwvaHRtbD4KIjtzOjM6InJhdyI7czo1Mzk6IkhUVFAvMS4xIDUwMyBCYWNrZW5kIGZldGNoIGZhaWxlZA0KZGF0ZTogRnJpLCAwOSBEZWMgMjAyMiAxNzoyMzo0MiBHTVQNCnNlcnZlcjogVmFybmlzaA0KY29udGVudC10eXBlOiB0ZXh0L2h0bWw7IGNoYXJzZXQ9dXRmLTgNCnJldHJ5LWFmdGVyOiA1DQphZ2U6IDANCngtY2FjaGU6IE1JU1MNCmNvbnRlbnQtbGVuZ3RoOiAyODQNCnN0cmljdC10cmFuc3BvcnQtc2VjdXJpdHk6IG1heC1hZ2U9MTU3NjgwMDANCmNvbm5lY3Rpb246IGNsb3NlDQoNCjwhRE9DVFlQRSBodG1sPgo8aHRtbD4KICA8aGVhZD4KICAgIDx0aXRsZT41MDMgQmFja2VuZCBmZXRjaCBmYWlsZWQ8L3RpdGxlPgogIDwvaGVhZD4KICA8Ym9keT4KICAgIDxoMT5FcnJvciA1MDMgQmFja2VuZCBmZXRjaCBmYWlsZWQ8L2gxPgogICAgPHA+QmFja2VuZCBmZXRjaCBmYWlsZWQ8L3A+CiAgICA8aDM+R3VydSBNZWRpdGF0aW9uOjwvaDM+CiAgICA8cD5YSUQ6IDE3MzY3NTY8L3A+CiAgICA8aHI+CiAgICA8cD5WYXJuaXNoIGNhY2hlIHNlcnZlcjwvcD4KICA8L2JvZHk+CjwvaHRtbD4KIjtzOjc6ImhlYWRlcnMiO086MjU6IlJlcXVlc3RzX1Jlc3BvbnNlX0hlYWRlcnMiOjE6e3M6NzoiACoAZGF0YSI7YTo4OntzOjQ6ImRhdGUiO2E6MTp7aTowO3M6Mjk6IkZyaSwgMDkgRGVjIDIwMjIgMTc6MjM6NDIgR01UIjt9czo2OiJzZXJ2ZXIiO2E6MTp7aTowO3M6NzoiVmFybmlzaCI7fXM6MTI6ImNvbnRlbnQtdHlwZSI7YToxOntpOjA7czoyNDoidGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ijt9czoxMToicmV0cnktYWZ0ZXIiO2E6MTp7aTowO3M6MToiNSI7fXM6MzoiYWdlIjthOjE6e2k6MDtzOjE6IjAiO31zOjc6IngtY2FjaGUiO2E6MTp7aTowO3M6NDoiTUlTUyI7fXM6MTQ6ImNvbnRlbnQtbGVuZ3RoIjthOjE6e2k6MDtzOjM6IjI4NCI7fXM6MjU6InN0cmljdC10cmFuc3BvcnQtc2VjdXJpdHkiO2E6MTp7aTowO3M6MTY6Im1heC1hZ2U9MTU3NjgwMDAiO319fXM6MTE6InN0YXR1c19jb2RlIjtpOjUwMztzOjE2OiJwcm90b2NvbF92ZXJzaW9uIjtkOjEuMTtzOjc6InN1Y2Nlc3MiO2I6MDtzOjk6InJlZGlyZWN0cyI7aTowO3M6MzoidXJsIjtzOjIwOiJodHRwczovL3dhcnJlbjMueHl6LyI7czo3OiJoaXN0b3J5IjthOjA6e31zOjc6ImNvb2tpZXMiO086MTk6IlJlcXVlc3RzX0Nvb2tpZV9KYXIiOjE6e3M6MTA6IgAqAGNvb2tpZXMiO2E6MDp7fX19czoxMToiACoAZmlsZW5hbWUiO047czo0OiJkYXRhIjtOO3M6NzoiaGVhZGVycyI7TjtzOjY6InN0YXR1cyI7Tjt9fQ==
+1153.036 (1) remotesend: ERROR: Failed to upload file: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip
+1153.042 (1) An error condition has occurred for the first time during this job
+1153.048 (1) remotesend: upload : attempt: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-uploads.zip
+1155.129 (1) remotesend: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-uploads.zip: existing size: 0
+1155.132 (1) Remote send upload: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-uploads.zip (chunks: 1, of size: 2097152) -> remotesend://https://warren3.xyz/backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-uploads.zip (0)
+1191.806 (1) The time we have been running (890.8) is approaching the resumption interval (748) - increasing resumption interval to 921
+1191.814 (1) Remotesend chunked upload: 100 % uploaded (1)
+1191.822 (1) Remote send upload: success
+1191.826 (1) Recording as successfully uploaded: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-uploads.zip
+1191.835 (1) Deleting local file: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-uploads.zip: OK
+1191.839 (1) Deleting zip manifest (backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-uploads.zip.list.tmp)
+1191.843 (1) remotesend: upload : attempt: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-others.zip
+1193.263 (1) remotesend: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-others.zip: existing size: 0
+1193.267 (1) Remote send upload: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-others.zip (chunks: 1, of size: 2097152) -> remotesend://https://warren3.xyz/backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-others.zip (0)
+1194.389 (1) The time we have been running (893.4) is approaching the resumption interval (921) - increasing resumption interval to 924
+1194.402 (1) Remotesend chunked upload: 100 % uploaded (1)
+1194.411 (1) Remote send upload: success
+1194.416 (1) Recording as successfully uploaded: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-others.zip
+1194.427 (1) Deleting local file: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-others.zip: OK
+1194.433 (1) Deleting zip manifest (backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-others.zip.list.tmp)
+1194.439 (1) remotesend: upload : attempt: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db.gz
+1195.630 (1) remotesend: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db.gz: existing size: 0
+1195.634 (1) Remote send upload: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db.gz (chunks: 1, of size: 2097152) -> remotesend://https://warren3.xyz/backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db.gz (0)
+1197.542 (1) The time we have been running (896.5) is approaching the resumption interval (924) - increasing resumption interval to 927
+1197.550 (1) Remotesend chunked upload: 100 % uploaded (1)
+1197.561 (1) Remote send upload: success
+1197.568 (1) Recording as successfully uploaded: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db.gz
+1197.583 (1) Deleting local file: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db.gz: OK
+1197.588 (1) Prune old backups from local store: skipping, as this was a remote send operation
+1197.592 (1) Resume backup (7ac6bea237a1, 1): finish run
+1197.601 (1) [Info] Lock option (updraft_lock_7ac6bea237a1, wp_warrenoptions) released
+1197.621 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1197.633 (1) No email will/can be sent - the user has not configured an email address.
+1197.640 (1) The backup has not finished; a resumption is scheduled
+1531.189 (2) Opened log file at time: Fri, 09 Dec 2022 17:30:12 +0000 on http://localhost/warren
+1531.194 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.4.25 WP: 6.1.1 PHP: 7.4.30 (apache2handler, Windows NT DESKTOP-MOCLPOK 10.0 build 19044 (Windows 10) AMD64) MySQL: 10.4.25-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.30 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 36.8M | 6M) multisite: N openssl: OpenSSL 1.1.1o  3 May 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+1531.199 (2) Free space on disk containing Updraft's temporary directory: 33916.3 MB
+1531.205 (2) Requesting backup semaphore lock (7ac6bea237a1)
+1531.214 (2) [Info] Lock (updraft_lock_7ac6bea237a1, wp_warrenoptions) acquired
+1531.224 (2) Backup run: resumption=2, nonce=7ac6bea237a1, file_nonce=7ac6bea237a1 begun at=1670605480 (1532s ago), job type=backup, previous check-in=896.54s
+1531.237 (2) Scheduling a resumption (3) after 927 seconds (1670607939) in case this run gets aborted
+1531.277 (2) Checking if we have a zip executable available
+1531.283 (2) Creation of backups of directories: already finished
+1531.296 (2) Saving backup status to database (elements: 8)
+1531.315 (2) Database dump (WordPress DB): Creation was completed already
+1531.320 (2) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+1531.331 (2) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-plugins.zip: plugins: This file has already been successfully uploaded
+1531.336 (2) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1531.340 (2) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-uploads.zip: uploads: This file has already been successfully uploaded
+1531.344 (2) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-others.zip: others: This file has already been successfully uploaded
+1531.349 (2) backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-db.gz: db: This file has already been successfully uploaded
+1531.354 (2) Saving backup history. Total backup size: Unknown
+1531.372 (2) Requesting upload of the files that have not yet been successfully uploaded (1)
+1531.384 (2) Cloud backup selection (1/1): remotesend with instance (1/1) (last)
+1531.390 (2) Beginning dispatch of backup to remote (remotesend)
+1531.438 (2) remotesend: upload : attempt: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip
+1532.878 (2) remotesend: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip: existing size: 33554432
+1532.883 (2) Remote send upload: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip (chunks: 18, of size: 2097152) -> remotesend://https://warren3.xyz/backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip (33554432)
+1769.221 (2) Remotesend chunked upload: 98.1 % uploaded (17)
+1826.263 (2) Remotesend chunked upload: 100 % uploaded (18)
+1826.284 (2) Remote send upload: success
+1826.288 (2) Recording as successfully uploaded: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip
+1826.301 (2) Deleting local file: backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip: OK
+1826.309 (2) Deleting zip manifest (backup_2022-12-09-1704_localhost_warren_7ac6bea237a1-themes.zip.list.tmp)
+1827.525 (2) Prune old backups from local store: skipping, as this was a remote send operation
+1827.529 (2) Resume backup (7ac6bea237a1, 2): finish run
+1827.543 (2) [Info] Lock option (updraft_lock_7ac6bea237a1, wp_warrenoptions) released
+1827.553 (2) There were no errors in the uploads, so the 'resume' event (3) is being unscheduled
+1827.573 (2) No email will/can be sent - the user has not configured an email address.
+1827.580 (2) The backup apparently succeeded and is now complete. To complete your migration/clone, you should now log in to the remote site and restore the backup set.
