@@ -39,7 +39,7 @@
                 </div>
 
                 <div class="col-span-1 col-end-9 xl:col-end-11 2xl:row-start-2">
-                    <img class="w-3/5" src="http://localhost/warren/wp-content/uploads/2022/12/warren-v-logo-e1670610973470.png" alt="warren vertical Logo">
+                    <img class="w-8/12" src="http://localhost/warren/wp-content/uploads/2022/12/warren-v-logo-e1670610973470.png" alt="warren vertical Logo">
                 </div>
 
                 <div class="col-span-6 mb-4 max-w-md xl:col-span-8 xl:col-start-2 2xl:col-span-7 2xl:col-start-2">
@@ -49,9 +49,111 @@
         </div>
     </div>
 
+    <!-- First Arcticle -->
+
+
+    <div class="grid grid-cols-8 xl:grid-cols-12 content-start">
+        <div class="col-span-3 xl:z-10 xl:col-span-2 xl:col-start-5 relative">
+            <img src="http://localhost/warren/wp-content/uploads/2022/12/warren-logo.png" alt="warren logo" width="" height="">
+            <div class="absolute inset-0 origin-left bg-inverse transition-transform delay-100 duration-1000 ease-out scale-x-0"></div>
+        </div>
+        
+        <div class="aspect-3/2 overflow-hidden xl:aspect-7/5 col-span-6 col-end-9 xl:col-span-7 xl:col-end-13 xl:row-start-2 relative -mt-32">
+
+            <img src="http://localhost/warren/wp-content/uploads/2022/12/symbol-2.png" alt="warren logo" width="" height="">
+
+            <div class="absolute inset-0 origin-left bg-inverse transition-transform delay-100 duration-1000 ease-out scale-x-0"></div>
+        </div>
+
+        <div class=" bg-isabelline -mt-[729px] z-10 col-span-7 xl:col-start-2 xl:row-start-3 relative flex flex-col self-start bg-inverse p-2 after:absolute after:inset-0 after:block after:border after:border-solid after:border-gray-500"  style="height: 312px">
+            <div>
+                <h2 class="font-anekLatin font-medium uppercase text-lg xl:text-xl 2xl:text-2xl mb-4 w-full">01/03</h2>
+                <div class="my-auto w-full pb-16">
+                    <h3 class="font-bold uppercase font-anekLatin text-8xl mb-4">TECH, ART, AND CULTURE</h3>
+                    <p class="text-2xl font-anekLatin">Warr3n is an imagined identity around the exploration of Web3 tech, art, and culture. A community of innovators.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Second Article -->
+
+    <div class="grid grid-cols-8 xl:grid-cols-12 content-start md:py-40">
+        <div class="col-span-6 aspect-3/2 overflow-hidden relative">
+            <img src="http://localhost/warren/wp-content/uploads/2022/12/symbol-4.png" alt="">
+            <div class="absolute inset-0 origin-left bg-inverse transition-transform delay-100 duration-1000 ease-out scale-x-0"></div>
+        </div>
+
+        <div class="bg-isabelline -mt-[145px] z-10 col-span-6 col-end-9 row-start-2 xl:col-span-5 xl:col-end-11 relative flex flex-col self-start bg-inverse p-2 after:absolute after:inset-0 after:block after:border after:border-solid after:border-gray-500" style="height: 312px">
+            <div>
+                <h2 class="font-anekLatin font-medium uppercase text-lg xl:text-xl 2xl:text-2xl mb-4 w-full">02/03</h2>
+                <div class="my-auto w-full pb-16">
+                    <h3 class="font-bold uppercase font-anekLatin text-8xl mb-4">TECH, ART, AND</h3>
+                    <p class="text-2xl font-anekLatin">Warr3n is an imagined identity around the exploration of Web3 tech, art, and culture.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-span-3 col-end-9 aspect-1 overflow-hidden xl:col-end-13 xl:row-start-2 relative">
+            <img src="http://localhost/warren/wp-content/uploads/2022/12/logo-1-1.png" alt="">
+            <div class="absolute inset-0 origin-left bg-inverse transition-transform delay-100 duration-1000 ease-out scale-x-0"></div>
+        </div>
+        <div>
+            <div class="absolute right-0 aspect-1 bg-primary -top-[var(--grid-unit-1)] w-[var(--grid-unit-1)]"></div>
+        </div>
+    </div>
+
+    <!-- Third Arcticle -->
+
+
+    <div class="grid grid-cols-8 xl:grid-cols-12 content-start md:py-40">
+        
+        <div class="aspect-3/2 overflow-hidden xl:aspect-7/5 col-span-6 col-end-9 xl:col-span-7 xl:col-end-13 xl:row-start-2 relative -mt-32">
+
+            <img src="http://localhost/warren/wp-content/uploads/2022/12/logo-4-1.png" alt="warren logo" width="" height="">
+
+            <div class="absolute inset-0 origin-left bg-inverse transition-transform delay-100 duration-1000 ease-out scale-x-0"></div>
+        </div>
+
+        <div class=" bg-isabelline -mt-[729px] z-10 col-span-7 xl:col-start-2 xl:row-start-3 relative flex flex-col self-start bg-inverse p-2 after:absolute after:inset-0 after:block after:border after:border-solid after:border-gray-500"  style="height: 312px">
+            <div>
+                <h2 class="font-anekLatin font-medium uppercase text-lg xl:text-xl 2xl:text-2xl mb-4 w-full">03/03</h2>
+                <div class="my-auto w-full pb-16">
+                    <h3 class="font-bold uppercase font-anekLatin text-8xl mb-4">TECH, ART, AND CULTURE</h3>
+                    <p class="text-2xl font-anekLatin">Warr3n is an imagined identity around the exploration of Web3 tech, art, and culture. A community of innovators.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </section>
 
+<!-- Fourth Article -->
 
+<!-- <div class="grid grid-cols-8 xl:grid-cols-12 content-start md:py-40">
+    <div class="col-span-6 aspect-3/2 overflow-hidden relative">
+        <img src="http://localhost/warren/wp-content/uploads/2022/12/symbol-1.png" alt="">
+        <div class="absolute inset-0 origin-left bg-inverse transition-transform delay-100 duration-1000 ease-out scale-x-0"></div>
+    </div>
+
+    <div class="bg-isabelline z-20 col-span-6 col-end-9 row-start-2 xl:col-span-7 xl:col-end-12 relative flex flex-col self-start bg-inverse p-2 after:absolute after:inset-0 after:block after:border after:border-solid after:border-gray-500" style="height: 312px">
+        <div>
+            <h2 class="font-anekLatin font-medium uppercase text-lg xl:text-xl 2xl:text-2xl mb-4 w-full">04/04</h2>
+            <div class="my-auto w-full pb-16">
+                <h3 class="font-bold uppercase font-anekLatin text-8xl mb-4">TECH, ART, AND</h3>
+                <p class="text-2xl font-anekLatin">Warr3n is an imagined identity around the exploration of Web3 tech, art, and culture.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-span-3 col-end-9 aspect-1 overflow-hidden xl:col-end-13 xl:row-start-2 relative">
+        <img src="http://localhost/warren/wp-content/uploads/2022/12/logo-1-1.png" alt="">
+        <div class="absolute inset-0 origin-left bg-inverse transition-transform delay-100 duration-1000 ease-out scale-x-0"></div>
+    </div>
+    <div>
+        <div class="absolute right-0 aspect-1 bg-primary -top-[var(--grid-unit-1)] w-[var(--grid-unit-1)]"></div>
+    </div>
+</div> -->
 
 
 
