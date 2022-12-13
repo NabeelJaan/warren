@@ -85,6 +85,14 @@
   top: calc(var(--grid-unit-1) * -1)
 }
 
+.right-full {
+  right: 100%
+}
+
+.left-full {
+  left: 100%
+}
+
 .z-50 {
   z-index: 50
 }
@@ -105,6 +113,10 @@
   z-index: 20
 }
 
+.-z-10 {
+  z-index: -10
+}
+
 .col-span-6 {
   grid-column: span 6 / span 6
 }
@@ -121,12 +133,48 @@
   grid-column: span 7 / span 7
 }
 
+.col-span-12 {
+  grid-column: span 12 / span 12
+}
+
+.col-span-2 {
+  grid-column: span 2 / span 2
+}
+
+.col-span-8 {
+  grid-column: span 8 / span 8
+}
+
+.col-start-2 {
+  grid-column-start: 2
+}
+
 .col-end-9 {
   grid-column-end: 9
 }
 
+.col-end-13 {
+  grid-column-end: 13
+}
+
+.col-end-10 {
+  grid-column-end: 10
+}
+
 .row-start-2 {
   grid-row-start: 2
+}
+
+.row-start-1 {
+  grid-row-start: 1
+}
+
+.row-start-3 {
+  grid-row-start: 3
+}
+
+.row-start-4 {
+  grid-row-start: 4
 }
 
 .m-8 {
@@ -185,6 +233,10 @@
   margin-top: -145px
 }
 
+.mb-20 {
+  margin-bottom: 5rem
+}
+
 .mb-1 {
   margin-bottom: 0.25rem
 }
@@ -223,6 +275,10 @@
 
 .h-screen {
   height: 100vh
+}
+
+.h-full {
+  height: 100%
 }
 
 .min-h-screen {
@@ -342,6 +398,11 @@
   border-width: 1px
 }
 
+.border-y {
+  border-top-width: 1px;
+  border-bottom-width: 1px
+}
+
 .border-b {
   border-bottom-width: 1px
 }
@@ -349,6 +410,11 @@
 .border-\[\#ff6d33\] {
   --tw-border-opacity: 1;
   border-color: rgb(255 109 51 / var(--tw-border-opacity))
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity))
 }
 
 .bg-gray-200 {
@@ -423,8 +489,17 @@
   padding-right: 1.5rem
 }
 
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem
+}
+
 .pb-16 {
   padding-bottom: 4rem
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem
 }
 
 .text-center {
@@ -457,6 +532,11 @@
 .text-8xl {
   font-size: 6rem;
   line-height: 1
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem
 }
 
 .text-sm {
@@ -542,6 +622,12 @@
 
 .transition-transform {
   transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms
+}
+
+.transition-all {
+  transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms
 }
@@ -667,6 +753,11 @@ body {
   border-color: rgb(107 114 128 / var(--tw-border-opacity))
 }
 
+.hover\:text-orangeCrayola:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 109 51 / var(--tw-text-opacity))
+}
+
 @media (min-width: 768px) {
   .md\:my-6 {
     margin-top: 1.5rem;
@@ -689,6 +780,11 @@ body {
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1
   }
 }
 
@@ -762,6 +858,10 @@ body {
     grid-column: span 5 / span 5
   }
 
+  .xl\:col-span-10 {
+    grid-column: span 10 / span 10
+  }
+
   .xl\:col-start-2 {
     grid-column-start: 2
   }
@@ -790,6 +890,10 @@ body {
     grid-row-start: 3
   }
 
+  .xl\:block {
+    display: block
+  }
+
   .xl\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr))
   }
@@ -797,6 +901,11 @@ body {
   .xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem
+  }
+
+  .xl\:text-9xl {
+    font-size: 8rem;
+    line-height: 1
   }
 }
 

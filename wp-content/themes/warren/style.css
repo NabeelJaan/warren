@@ -8,3 +8,51 @@ Version: 3.2.0
 License: MIT
 Text Domain: tailpress
 */
+
+
+/* FAQ */
+
+
+:root {
+  --orangeCrayola: #ff6d33;
+  --isabelline:    #f0ebe5;
+}
+
+
+.acc {
+  margin-bottom: 10px;
+}
+.acc-head::before,
+.acc-head::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  background-color: #fff;
+  transition: all .3s;
+}
+
+.acc-head::before {
+  right: 30px;
+  width: 3px;
+  height: 20px;
+  margin-top: -10px;
+}
+
+.acc-head::after {
+  right: 21px;
+  width: 20px;
+  height: 3px;
+  margin-top: -2px;
+}
+.acc-head:hover::before,
+.acc-head:hover::after{
+  background-color: var(--orangeCrayola);
+}
+.acc-content {
+  display: none;
+}
+        
+.acc-head.active::before {
+  transform: rotate(90deg);
+}
+  

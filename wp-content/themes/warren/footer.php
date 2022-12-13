@@ -21,7 +21,25 @@
 
 
 <script>
-	const logo = documemnt.querySelector( '' );
+
+jQuery(document).ready(function() {
+  jQuery('.acc-container .acc:nth-child(1) .acc-head').addClass('active');
+  jQuery('.acc-container .acc:nth-child(1) .acc-content').slideDown();
+  jQuery('.acc-head').on('click', function() {
+      if(jQuery(this).hasClass('active')) {
+        jQuery(this).siblings('.acc-content').slideUp();
+        jQuery(this).removeClass('active');
+      }
+      else {
+        jQuery('.acc-content').slideUp();
+        jQuery('.acc-head').removeClass('active');
+        jQuery(this).siblings('.acc-content').slideToggle();
+        jQuery(this).toggleClass('active');
+      }
+  });     
+  });
+
+
 </script>
 
 <?php wp_footer(); ?>
