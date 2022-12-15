@@ -222,4 +222,20 @@
     </div>
 </section>
 
+<!-- Latest Articles -->
+
+<section class="latest-articles">
+    <div class="mx-auto max-w-1140px 2xl:max-w-1585px">
+        <div class="owl-carousel">
+            <div> Your Content </div>
+            <div> Your Content </div>
+            <div> Your Content </div>
+            <div> Your Content </div>
+            <div> Your Content </div>
+            <div> Your Content </div>
+            <div> Your Content </div>
+        </div>
+    </div>
+</section>
+
 <?php get_footer(); ?>
