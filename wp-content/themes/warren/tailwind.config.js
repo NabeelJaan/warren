@@ -36,6 +36,10 @@ module.exports = {
               fontFamily: {
                 'anekLatin': ['Anek Latin', 'sans-serif']
               },
+              maxWidth: {
+                '1140px' : '1140px',
+                '1585px' : '1585px'
+              }
         },
 
         screens: {
