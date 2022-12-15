@@ -177,7 +177,7 @@
     <div class="grid grid-cols-8 xl:grid-cols-12">
         <div class="col-span-12 xl:col-span-10 xl:col-start-2">
 
-            <div class="faq-header mb-20">
+            <div class="faq-header text-center mb-20">
                 <h2 class="text-white font-medium font-anekLatin uppercase text-4xl md:text-5xl xl:text-9xl">FAQ's</h2>
             </div>
             <div class="acc-container">        
@@ -224,16 +224,111 @@
 
 <!-- Latest Articles -->
 
-<section class="latest-articles">
+<section class="latest-articles py-20">
     <div class="mx-auto max-w-1140px 2xl:max-w-1585px">
+
+        <div class="faq-header text-center mb-20">
+            <h2 class="text-black font-medium font-anekLatin capitilize text-4xl md:text-5xl xl:text-9xl">Latest Articles</h2>
+        </div>
+
         <div class="owl-carousel">
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
+
+            <div class="post-box">
+
+                <div class="featured-img relative">
+
+                    <img src="http://localhost/warren/wp-content/uploads/2022/12/post1.webp" alt="">
+
+                    <div class="post-date bg-isabelline w-14 h-14 inline-flex flex-col items-center justify-center absolute top-[15px] left-[15px]">
+                        <span id="post-day" class="text-2xl font-anekLatin">15</span>
+                        <span id="post-month" class="text-sm font-anekLatin">Dec</span>
+                    </div>
+
+                </div>
+
+                <div class="post-content border shadow-md text-center p-[25px]">
+                    <h3 class="text-2xl font-anekLatin font-semibold text-black mb-4 mt-3">Crypto needs to eliminate "NFTs" from the forefront of their marketing plan.</h3>
+                    <p class="text-base font-normal font-anekLatin text-black mb-5">
+                        Pulled up to Chicago's Web3 staple @im_not_art to check out Willea Zwey's exhibition 
+                        "Through The Spectrum" as a live mint.
+                    </p>
+                    <a href="#" class="text-sm font-medium font-anekLatin text-orangeCrayola uppercase" area-lable="continue reading" target="_self">continue Reading</a>
+                </div>
+
+            </div>
+
+            <div class="post-box">
+                
+                <div class="featured-img relative">
+
+                    <img src="http://localhost/warren/wp-content/uploads/2022/12/post1.webp" alt="">
+
+                    <div class="post-date bg-isabelline w-14 h-14 inline-flex flex-col items-center justify-center absolute top-[15px] left-[15px]">
+                        <span id="post-day" class="text-2xl font-anekLatin">15</span>
+                        <span id="post-month" class="text-sm font-anekLatin">Dec</span>
+                    </div>
+
+                </div>
+
+                <div class="post-content border shadow-md text-center p-[25px]">
+                    <h3 class="text-2xl font-anekLatin font-semibold text-black mb-4 mt-3">Crypto needs to eliminate "NFTs" from the forefront of their marketing plan.</h3>
+                    <p class="text-base font-normal font-anekLatin text-black mb-5">
+                        Pulled up to Chicago's Web3 staple @im_not_art to check out Willea Zwey's exhibition 
+                        "Through The Spectrum" as a live mint.
+                    </p>
+                    <a href="#" class="text-sm font-medium font-anekLatin text-orangeCrayola uppercase" area-lable="continue reading" target="_self">continue Reading</a>
+                </div>
+
+            </div>
+
+            <div class="post-box">
+                
+                <div class="featured-img relative">
+
+                    <img src="http://localhost/warren/wp-content/uploads/2022/12/post1.webp" alt="">
+
+                    <div class="post-date bg-isabelline w-14 h-14 inline-flex flex-col items-center justify-center absolute top-[15px] left-[15px]">
+                        <span id="post-day" class="text-2xl font-anekLatin">15</span>
+                        <span id="post-month" class="text-sm font-anekLatin">Dec</span>
+                    </div>
+
+                </div>
+
+                <div class="post-content border shadow-md text-center p-[25px]">
+                    <h3 class="text-2xl font-anekLatin font-semibold text-black mb-4 mt-3">Crypto needs to eliminate "NFTs" from the forefront of their marketing plan.</h3>
+                    <p class="text-base font-normal font-anekLatin text-black mb-5">
+                        Pulled up to Chicago's Web3 staple @im_not_art to check out Willea Zwey's exhibition 
+                        "Through The Spectrum" as a live mint.
+                    </p>
+                    <a href="#" class="text-sm font-medium font-anekLatin text-orangeCrayola uppercase" area-lable="continue reading" target="_self">continue Reading</a>
+                </div>
+
+            </div>
+
+            <div class="post-box">
+                
+                <div class="featured-img relative">
+
+                    <img src="http://localhost/warren/wp-content/uploads/2022/12/post1.webp" alt="">
+
+                    <div class="post-date bg-isabelline w-14 h-14 inline-flex flex-col items-center justify-center absolute top-[15px] left-[15px]">
+                        <span id="post-day" class="text-2xl font-anekLatin">15</span>
+                        <span id="post-month" class="text-sm font-anekLatin">Dec</span>
+                    </div>
+
+                </div>
+
+                <div class="post-content border shadow-md text-center p-[25px]">
+                    <h3 class="text-2xl font-anekLatin font-semibold text-black mb-4 mt-3">Crypto needs to eliminate "NFTs" from the forefront of their marketing plan.</h3>
+                    <p class="text-base font-normal font-anekLatin text-black mb-5">
+                        Pulled up to Chicago's Web3 staple @im_not_art to check out Willea Zwey's exhibition 
+                        "Through The Spectrum" as a live mint.
+                    </p>
+                    <a href="#" class="text-sm font-medium font-anekLatin text-orangeCrayola uppercase" area-lable="continue reading" target="_self">continue Reading</a>
+                </div>
+
+            </div>
+
         </div>
     </div>
 </section>

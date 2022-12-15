@@ -45,8 +45,6 @@ function tailpress_enqueue_scripts() {
 
 	// Owl Carousel
 	wp_enqueue_style( 'OwlCarousel', get_template_directory_uri() . '/assets/owlcarousel/css/owl.carousel.min.css' );
-	
-	wp_enqueue_style( 'OwlTheme', get_template_directory_uri() . 'assets/OwlCarousel/css/owl.theme.default.min.css' );
 
 	// Google Font Anek Latin
 	wp_enqueue_style( 'GoogleFont', '//fonts.googleapis.com/css2?family=Anek+Latin:wght@400;500;600;700;800&display=swap', array(), '' );

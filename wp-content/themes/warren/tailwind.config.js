@@ -33,6 +33,12 @@ module.exports = {
                 'isabelline'     : '#f0ebe5'
               },
 
+              colors: {
+                'orangeCrayola'   : '#ff6e33',
+                'darkGrey'      : '#ff6d33',
+                'isabelline'     : '#f0ebe5'
+              },
+
               fontFamily: {
                 'anekLatin': ['Anek Latin', 'sans-serif']
               },

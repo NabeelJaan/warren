@@ -64,12 +64,15 @@ jQuery(document).ready(function() {
 
   jQuery('.owl-carousel').owlCarousel({
     loop:true,
-    margin:10,
+
+    margin:20,
+
     responsiveClass:true,
+
     responsive:{
         0:{
             items:1,
-            nav:true
+            nav:false
         },
         600:{
             items:2,
@@ -77,8 +80,8 @@ jQuery(document).ready(function() {
         },
         1000:{
             items:3,
-            nav:true,
-            loop:false
+            nav:false,
+            loop:true
         }
     }
   });

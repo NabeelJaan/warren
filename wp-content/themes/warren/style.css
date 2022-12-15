@@ -55,4 +55,23 @@ Text Domain: tailpress
 .acc-head.active::before {
   transform: rotate(90deg);
 }
-  
+
+/* Owl Carousel */
+
+.owl-carousel .owl-stage-outer {
+  padding-bottom: 20px;
+}
+
+.owl-dots {
+  text-align: center;
+}
+.owl-dots .owl-dot {
+  width: 20px;
+  height: 20px;
+  background-color: var(--isabelline) !important;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+.owl-dots > .active {
+  background-color: var(--orangeCrayola) !important;
+}
