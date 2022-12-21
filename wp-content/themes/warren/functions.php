@@ -123,3 +123,14 @@ function tailpress_nav_menu_add_submenu_class( $classes, $args, $depth ) {
 }
 
 add_filter( 'nav_menu_submenu_css_class', 'tailpress_nav_menu_add_submenu_class', 10, 3 );
+
+
+
+
+/*
+    ==========================================
+    Include files
+    ==========================================
+*/
+
+require get_template_directory() . '/inc/gb-blocks.php';
