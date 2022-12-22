@@ -45,15 +45,15 @@ function exponentialGrowth_acf_block() {
             "keywords" => ["About Section", ""],
         ]);
 
-        // Article one
+        // Featured Articles
 
         acf_register_block_type([
 
-            "name" => __("Article One"),
+            "name" => __("Featured Articles"),
 
-            "title" => __("Article One"),
+            "title" => __("Featured Articles"),
 
-            "description" => __("Article One on home page"),
+            "description" => __("Featured Articles on home page"),
 
             "render_template" => "inc/blocks/featured-articles.php",
 
@@ -61,7 +61,7 @@ function exponentialGrowth_acf_block() {
 
             "icon" => "block-default",
 
-            "keywords" => ["Article One", ""],
+            "keywords" => ["Featured Articles", ""],
         ]);
 
         // Latest Articles

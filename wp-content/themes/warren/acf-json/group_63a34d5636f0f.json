@@ -28,7 +28,7 @@
             {
                 "param": "block",
                 "operator": "==",
-                "value": "all"
+                "value": "acf\/latest-articles"
             }
         ]
     ],
@@ -41,5 +41,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1671646941
+    "modified": 1671653350
 }

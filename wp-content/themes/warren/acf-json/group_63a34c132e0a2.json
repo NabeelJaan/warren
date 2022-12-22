@@ -3,6 +3,26 @@
     "title": "Hero Section",
     "fields": [
         {
+            "key": "field_63a3560f6735a",
+            "label": "Background Video",
+            "name": "background_video",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
             "key": "field_63a34c13eecf3",
             "label": "Main Logo",
             "name": "main_logo",
@@ -66,5 +86,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1671646299
+    "modified": 1671649110
 }

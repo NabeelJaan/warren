@@ -35,6 +35,20 @@ function tailpress_setup() {
 
 add_action( 'after_setup_theme', 'tailpress_setup' );
 
+
+
+/*
+	==========================================
+	Custom Image size
+	==========================================
+*/
+
+add_image_size( 'f-img', 791, 593, true );
+
+add_image_size( 'la-img',515, 386, true );
+
+
+
 /**
  * Enqueue theme assets.
  */
@@ -58,7 +72,7 @@ function tailpress_enqueue_scripts() {
 	// Owl Carousel
 	wp_enqueue_script('OwlCarouseljs', get_template_directory_uri() . '/assets/OwlCarousel/js/owl.carousel.min.js', array('jquery'),'', true);
 
-	wp_enqueue_script( 'tailpress', tailpress_asset( 'js/app.js' ), array(), $theme->get( 'Version' ) );
+	// wp_enqueue_script( 'tailpress', tailpress_asset( 'js/app.js' ), array(), $theme->get( 'Version' ) );
 }
 
 add_action( 'wp_enqueue_scripts', 'tailpress_enqueue_scripts' );
