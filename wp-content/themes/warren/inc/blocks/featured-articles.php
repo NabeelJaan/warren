@@ -4,6 +4,7 @@
 
         <div class="aritcles-head text-center mb-32">
             <h2 class="font-medium font-anekLatin uppercase 2xl:text-9xl mb-4">Explore</h2>
+            <div class="h-[2px] w-[200px] mx-auto bg-orangeCrayola mt-3 mb-8"></div>
         </div> 
 
         <!-- First Arcticle -->
@@ -36,7 +37,20 @@
 
             <div>
                 <div class="post-content bg-white p-[38px] -ml-10 shadow-md relative z-50">
-                    <span class="text-base font-anekLatin">Web3</span>
+
+                    <span class="text-base font-anekLatin block mb-5">
+                        <?php
+                            $categories = get_the_category();
+                            $separator = ' ';
+                            $output = '';
+                            if ( ! empty( $categories ) ) {
+                                foreach( $categories as $category ) {
+                                    $output .= '<a class="cat-text text-orangeCrayola text-sm font-medium font-anekLatin uppercase" href="' . get_category_link( $category->term_id ) . '">' . esc_html( $category->name ) . '</a>' . $separator;
+                                }
+                                echo trim( $output, $separator );
+                            }
+                        ?>
+                    </span>
 
                     <h2 class="text-4xl font-anekLatin font-bold">
                         <?php the_title(); ?>
@@ -91,7 +105,20 @@
 
             <div>
                 <div class="post-content bg-white p-[38px] -mr-10 shadow-md relative z-50">
-                    <span class="text-base font-anekLatin">Web3</span>
+
+                    <span class="text-base font-anekLatin block mb-5">
+                        <?php
+                            $categories = get_the_category();
+                            $separator = ' ';
+                            $output = '';
+                            if ( ! empty( $categories ) ) {
+                                foreach( $categories as $category ) {
+                                    $output .= '<a class="cat-text text-orangeCrayola text-sm font-medium font-anekLatin uppercase" href="' . get_category_link( $category->term_id ) . '">' . esc_html( $category->name ) . '</a>' . $separator;
+                                }
+                                echo trim( $output, $separator );
+                            }
+                        ?>
+                    </span>
 
                     <h2 class="text-4xl font-anekLatin font-bold">
                         <?php the_title(); ?>
@@ -127,7 +154,7 @@
                 'cat'               =>   3,
                 'posts_per_page'    =>   1,
                 'post_status'       =>  'publish',
-                'offset'			=>  1
+                'offset'			=>  2
             );
             $the_query = new WP_Query( $args );
             $i = 1;
@@ -145,13 +172,35 @@
 
             <div>
                 <div class="post-content bg-white p-[38px] -ml-10 shadow-md relative z-50">
-                    <span class="text-base font-anekLatin">Web3</span>
-                    <h2 class="text-4xl font-anekLatin font-bold">Good, Evil, & Death by Blockchain - An exclusive interview with Terrell Jones</h2>
+
+                    <span class="text-base font-anekLatin block mb-5">
+                        <?php
+                            $categories = get_the_category();
+                            $separator = ' ';
+                            $output = '';
+                            if ( ! empty( $categories ) ) {
+                                foreach( $categories as $category ) {
+                                    $output .= '<a class="cat-text text-orangeCrayola text-sm font-medium font-anekLatin uppercase" href="' . get_category_link( $category->term_id ) . '">' . esc_html( $category->name ) . '</a>' . $separator;
+                                }
+                                echo trim( $output, $separator );
+                            }
+                        ?>
+                    </span>
+
+                    <h2 class="text-4xl font-anekLatin font-bold">
+                        <?php the_title(); ?>
+                    </h2>
+
                     <div class="h-[2px] w-32 bg-orangeCrayola mt-3 mb-8"></div>
-                    <p class="text-xl font-anekLatin mb-4">Scrolling through CryptoTwitter while presumably in the anger/depression phase of a market cycle has been interesting.
-                        FTX-CoNtAgIoN, regulation worries, conference attendance roll calls, and FUDing of more apparently everything.
-                    </p>
-                    <a href="#" class="text-xl pb-1 font-anekLatin border-b border-dotted border-orangeCrayola" area-label="continue reading" target="_self">Continue Reading</a>
+
+                    <div class="text-xl font-anekLatin mb-4">
+                        <?php echo wp_trim_words( get_the_content(), 15 ); ?>
+                    </div>
+
+                    <a href="<?php the_permalink(); ?>" class="text-xl pb-1 font-anekLatin border-b border-dotted border-orangeCrayola" area-label="continue reading" target="_self">
+                        Continue Reading
+                    </a>
+
                 </div> 
             </div>
         </div>

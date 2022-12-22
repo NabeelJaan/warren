@@ -696,6 +696,10 @@ video {
   margin-bottom: 3rem;
 }
 
+.block {
+  display: block;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -776,6 +780,10 @@ video {
   width: 3.5rem;
 }
 
+.w-\[200px\] {
+  width: 200px;
+}
+
 .min-w-full {
   min-width: 100%;
 }
@@ -842,11 +850,6 @@ video {
 
 .rounded-sm {
   border-radius: 0.125rem;
-}
-
-.rounded-t-xl {
-  border-top-left-radius: 0.75rem;
-  border-top-right-radius: 0.75rem;
 }
 
 .border {

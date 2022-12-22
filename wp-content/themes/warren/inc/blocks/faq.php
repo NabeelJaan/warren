@@ -6,7 +6,12 @@
         <div class="col-span-12 xl:col-span-10 xl:col-start-2">
 
             <div class="faq-header text-center mb-20">
-                <h2 class="text-white font-medium font-anekLatin uppercase text-4xl md:text-5xl xl:text-9xl">FAQ's</h2>
+                <h2 class="text-white font-medium font-anekLatin uppercase text-4xl md:text-5xl xl:text-9xl">
+                    FAQ's
+                </h2>
+                
+                <div class="h-[2px] w-[200px] mx-auto bg-orangeCrayola mt-3 mb-8"></div>
+
             </div>
             <div class="acc-container">        
                 <div class="acc border-y border-white">

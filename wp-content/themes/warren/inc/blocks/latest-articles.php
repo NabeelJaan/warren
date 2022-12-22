@@ -8,6 +8,8 @@
             <h2 class="text-black font-medium font-anekLatin capitilize text-4xl md:text-5xl xl:text-9xl">
                 <?php the_field( 'latest_articles_heading' ); ?>
             </h2>
+            
+            <div class="h-[2px] w-[200px] mx-auto bg-orangeCrayola mt-3 mb-8"></div>
         </div>
 
 
