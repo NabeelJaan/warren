@@ -98,3 +98,40 @@ Text Domain: tailpress
   background-color: var(--black);
   opacity: 0.9;
 }
+
+/*
+  ===================
+    single Post Page
+  ===================
+*/
+
+.single-post {
+  background-color: #f0ebe5;
+}
+
+.entry-content > p {
+  font-size: 20px;
+  line-height: 1.5em;
+  font-family: 'Anek Latin', sans-serif;
+}
+.entry-content h2,
+.block-editor-block-list__layout h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 28px;
+  font-family: 'Anek Latin', sans-serif;
+}
+.wp-element-caption {
+  font-size: 14px;
+  font-family: 'Anek Latin', sans-serif;
+}
+.figure > img {
+  width: 100% !important;
+}
+
+
+/* News Letter */
+.cta {
+  background: rgb(3,111,240);
+  background: linear-gradient(37deg, rgba(3,111,240,1) 35%, rgba(101,160,245,1) 100%);
+}

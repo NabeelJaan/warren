@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-	<div class="container my-8 mx-auto">
+	<div class="max-w-[890px] my-8 mx-auto bg-white shadow-md py-6 px-5">
 
 	<?php if ( have_posts() ) : ?>
 

@@ -1,7 +1,7 @@
 
 
 
-<section class="latest-articles py-20">
+<section class="latest-articles px-[15px] xl:px-0 py-[120px]">
     <div class="mx-auto max-w-1140px 2xl:max-w-1585px">
 
         <div class="faq-header text-center mb-20">
@@ -49,14 +49,16 @@
 
                 <div class="post-content border shadow-md text-center p-[25px]">
 
-                    <h3 class="text-2xl font-anekLatin font-semibold text-black mb-4 mt-3"><?php the_title(); ?></h3>
+                    <a href="<?php the_permalink(); ?>">
+                        <h3 class="text-2xl font-anekLatin font-semibold text-black mb-4 mt-3"><?php the_title(); ?></h3>
+                    </a>
 
                     <div class="text-base font-normal font-anekLatin text-black mb-5">
                         <!-- <?php the_excerpt(); ?> -->
                         <?php echo wp_trim_words( get_the_content(), 15 ); ?>
                     </div>
 
-                    <a href="7 px-15 hover:bg-dark-green rounded-sm" href="<?php the_permalink(); ?>" class="text-sm font-medium font-anekLatin text-orangeCrayola uppercase" area-lable="continue reading" target="_self">
+                    <a href="<?php the_permalink(); ?>" class="text-sm font-medium font-anekLatin text-orangeCrayola uppercase 7 px-15 hover:bg-dark-green rounded-sm" area-lable="continue reading" target="_self">
                         continue Reading
                     </a>
 

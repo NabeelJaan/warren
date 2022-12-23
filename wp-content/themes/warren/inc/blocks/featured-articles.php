@@ -1,4 +1,4 @@
-<section class="px-6 bg-isabelline py-20">
+<section class="bg-isabelline px-[15px] xl:px-0 py-[120px]">
 
     <div class="mx-auto max-w-1140px 2xl:max-w-1585px">
 
@@ -29,37 +29,39 @@
 
         <div class="relative single-article md:flex md:items-center mb-32">
 
-            <div class="f-img border-8 border-white relative inline-block">
+            <div class="f-img border-8 border-white relative">
                 <a href="<?php the_permalink(); ?>">
                     <?php the_post_thumbnail('f-img', ['class' => 'w-full']); ?>
                 </a>
             </div>
 
-            <div>
+            <div class="w-2/4">
                 <div class="post-content bg-white p-[38px] -ml-10 shadow-md relative z-50">
 
-                    <span class="text-base font-anekLatin block mb-5">
+                    <span class="text-base font-anekLatin bg-orangeCrayola inline-block px-2 mb-5">
                         <?php
                             $categories = get_the_category();
                             $separator = ' ';
                             $output = '';
                             if ( ! empty( $categories ) ) {
                                 foreach( $categories as $category ) {
-                                    $output .= '<a class="cat-text text-orangeCrayola text-sm font-medium font-anekLatin uppercase" href="' . get_category_link( $category->term_id ) . '">' . esc_html( $category->name ) . '</a>' . $separator;
+                                    $output .= '<a class="cat-text text-black text-sm font-medium font-anekLatin uppercase" href="' . get_category_link( $category->term_id ) . '">' . esc_html( $category->name ) . '</a>' . $separator;
                                 }
                                 echo trim( $output, $separator );
                             }
                         ?>
                     </span>
 
-                    <h2 class="text-4xl font-anekLatin font-bold">
-                        <?php the_title(); ?>
-                    </h2>
+                    <a href="<?php the_permalink(); ?>">
+                        <h2 class="text-4xl font-anekLatin font-bold">
+                            <?php the_title(); ?>
+                        </h2>
+                    </a>
 
                     <div class="h-[2px] w-32 bg-orangeCrayola mt-3 mb-8"></div>
 
                     <div class="text-xl font-anekLatin mb-4">
-                        <?php echo wp_trim_words( get_the_content(), 15 ); ?>
+                        <?php echo wp_trim_words( get_the_content(), 40 ); ?>
                     </div>
 
                     <a href="<?php the_permalink(); ?>" class="text-xl pb-1 font-anekLatin border-b border-dotted border-orangeCrayola" area-label="continue reading" target="_self">
@@ -97,37 +99,39 @@
 
         <div class="relative single-article md:flex md:items-center mb-32">
 
-            <div class="f-img border-8 border-white relative inline-block order-last">
+            <div class="f-img border-8 border-white relative order-last ">
                 <a href="<?php the_permalink(); ?>">
                     <?php the_post_thumbnail('f-img', ['class' => 'w-full']); ?>
                 </a>
             </div>
 
-            <div>
+            <div class="w-2/4">
                 <div class="post-content bg-white p-[38px] -mr-10 shadow-md relative z-50">
 
-                    <span class="text-base font-anekLatin block mb-5">
+                    <span class="text-base font-anekLatin mb-5 bg-orangeCrayola inline-block px-2">
                         <?php
                             $categories = get_the_category();
                             $separator = ' ';
                             $output = '';
                             if ( ! empty( $categories ) ) {
                                 foreach( $categories as $category ) {
-                                    $output .= '<a class="cat-text text-orangeCrayola text-sm font-medium font-anekLatin uppercase" href="' . get_category_link( $category->term_id ) . '">' . esc_html( $category->name ) . '</a>' . $separator;
+                                    $output .= '<a class="cat-text text-black text-sm font-medium font-anekLatin uppercase" href="' . get_category_link( $category->term_id ) . '">' . esc_html( $category->name ) . '</a>' . $separator;
                                 }
                                 echo trim( $output, $separator );
                             }
                         ?>
                     </span>
 
-                    <h2 class="text-4xl font-anekLatin font-bold">
-                        <?php the_title(); ?>
-                    </h2>
+                    <a href="<?php the_permalink(); ?>">
+                        <h2 class="text-4xl font-anekLatin font-bold">
+                            <?php the_title(); ?>
+                        </h2>
+                    </a>
 
                     <div class="h-[2px] w-32 bg-orangeCrayola mt-3 mb-8"></div>
 
                     <div class="text-xl font-anekLatin mb-4">
-                        <?php echo wp_trim_words( get_the_content(), 15 ); ?>
+                        <?php echo wp_trim_words( get_the_content(), 40 ); ?>
                     </div>
 
                     <a href="<?php the_permalink(); ?>" class="text-xl pb-1 font-anekLatin border-b border-dotted border-orangeCrayola" area-label="continue reading" target="_self">
@@ -164,37 +168,39 @@
 
         <div class="relative single-article md:flex md:items-center">
 
-            <div class="f-img border-8 border-white relative inline-block">
+            <div class="f-img border-8 border-white relative">
                 <a href="<?php the_permalink(); ?>">
                     <?php the_post_thumbnail('f-img', ['class' => 'w-full']); ?>
                 </a>
             </div>
 
-            <div>
+            <div class="w-2/4">
                 <div class="post-content bg-white p-[38px] -ml-10 shadow-md relative z-50">
 
-                    <span class="text-base font-anekLatin block mb-5">
+                    <span class="text-base font-anekLatin mb-5 bg-orangeCrayola inline-block px-2">
                         <?php
                             $categories = get_the_category();
                             $separator = ' ';
                             $output = '';
                             if ( ! empty( $categories ) ) {
                                 foreach( $categories as $category ) {
-                                    $output .= '<a class="cat-text text-orangeCrayola text-sm font-medium font-anekLatin uppercase" href="' . get_category_link( $category->term_id ) . '">' . esc_html( $category->name ) . '</a>' . $separator;
+                                    $output .= '<a class="cat-text text-black text-sm font-medium font-anekLatin uppercase" href="' . get_category_link( $category->term_id ) . '">' . esc_html( $category->name ) . '</a>' . $separator;
                                 }
                                 echo trim( $output, $separator );
                             }
                         ?>
                     </span>
 
-                    <h2 class="text-4xl font-anekLatin font-bold">
-                        <?php the_title(); ?>
-                    </h2>
+                    <a href="<?php the_permalink(); ?>">
+                        <h2 class="text-4xl font-anekLatin font-bold">
+                            <?php the_title(); ?>
+                        </h2>
+                    </a>
 
                     <div class="h-[2px] w-32 bg-orangeCrayola mt-3 mb-8"></div>
 
                     <div class="text-xl font-anekLatin mb-4">
-                        <?php echo wp_trim_words( get_the_content(), 15 ); ?>
+                        <?php echo wp_trim_words( get_the_content(), 40 ); ?>
                     </div>
 
                     <a href="<?php the_permalink(); ?>" class="text-xl pb-1 font-anekLatin border-b border-dotted border-orangeCrayola" area-label="continue reading" target="_self">

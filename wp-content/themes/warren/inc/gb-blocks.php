@@ -101,6 +101,26 @@ function exponentialGrowth_acf_block() {
 
             "keywords" => ["FAQ", ""],
         ]);
+
+
+        // FAQ's
+
+        acf_register_block_type([
+
+            "name" => __("CTA"),
+
+            "title" => __("CTA"),
+
+            "description" => __("CTA on home page"),
+
+            "render_template" => "inc/blocks/cta.php",
+
+            "category" => "warren",
+
+            "icon" => "block-default",
+
+            "keywords" => ["CTA", ""],
+        ]);
     }
 }
 

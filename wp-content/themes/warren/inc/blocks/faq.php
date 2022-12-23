@@ -1,7 +1,7 @@
 
 
 
-<section class="py-24 bg-black">
+<section class="bg-black px-[15px] xl:px-0 py-[120px]">
     <div class="grid grid-cols-8 xl:grid-cols-12">
         <div class="col-span-12 xl:col-span-10 xl:col-start-2">
 

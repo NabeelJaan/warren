@@ -1,6 +1,6 @@
 
 
-
+<div class="h-[8px] bg-orangeCrayola"></div>
 
 <footer class="site-footer bg-isabelline py-14">
 
