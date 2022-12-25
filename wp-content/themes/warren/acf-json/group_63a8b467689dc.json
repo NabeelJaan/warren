@@ -1,11 +1,11 @@
 {
-    "key": "group_63a35493079be",
-    "title": "FAQ Section",
+    "key": "group_63a8b467689dc",
+    "title": "Footer",
     "fields": [
         {
-            "key": "field_63a35493e1c11",
-            "label": "FAQ Heading",
-            "name": "faq_heading",
+            "key": "field_63a8b467a6438",
+            "label": "footer Copy Right",
+            "name": "footer_copy_right",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -23,11 +23,11 @@
             "append": ""
         },
         {
-            "key": "field_63a354b8e1c12",
-            "label": "Questions Answers",
-            "name": "questions_answers",
+            "key": "field_63a8b480a6439",
+            "label": "Social icons",
+            "name": "social_icons",
             "aria-label": "",
-            "type": "repeater",
+            "type": "group",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -36,18 +36,12 @@
                 "class": "",
                 "id": ""
             },
-            "layout": "table",
-            "pagination": 0,
-            "min": 0,
-            "max": 0,
-            "collapsed": "",
-            "button_label": "Add Row",
-            "rows_per_page": 20,
+            "layout": "block",
             "sub_fields": [
                 {
-                    "key": "field_63a354dde1c13",
-                    "label": "Question",
-                    "name": "question",
+                    "key": "field_63a8b5a13d342",
+                    "label": "Social Icons Title",
+                    "name": "social_icons_title",
                     "aria-label": "",
                     "type": "text",
                     "instructions": "",
@@ -62,15 +56,14 @@
                     "maxlength": "",
                     "placeholder": "",
                     "prepend": "",
-                    "append": "",
-                    "parent_repeater": "field_63a354b8e1c12"
+                    "append": ""
                 },
                 {
-                    "key": "field_63a354e7e1c14",
-                    "label": "Answer",
-                    "name": "answer",
+                    "key": "field_63a8b498a643a",
+                    "label": "Instagram Link",
+                    "name": "instagram_link",
                     "aria-label": "",
-                    "type": "textarea",
+                    "type": "link",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
@@ -79,12 +72,23 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
-                    "maxlength": "",
-                    "rows": "",
-                    "placeholder": "",
-                    "new_lines": "",
-                    "parent_repeater": "field_63a354b8e1c12"
+                    "return_format": "array"
+                },
+                {
+                    "key": "field_63a8b4e0a643c",
+                    "label": "Twitter Link",
+                    "name": "twitter_link",
+                    "aria-label": "",
+                    "type": "link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array"
                 }
             ]
         }
@@ -92,9 +96,9 @@
     "location": [
         [
             {
-                "param": "block",
+                "param": "options_page",
                 "operator": "==",
-                "value": "acf\/faq"
+                "value": "acf-options-footer"
             }
         ]
     ],
@@ -107,5 +111,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1671998354
+    "modified": 1672001491
 }

@@ -48,6 +48,24 @@ add_image_size( 'f-img', 791, 593, true );
 add_image_size( 'la-img',515, 386, true );
 
 
+/*
+    ==========================================
+      Options Page
+    ==========================================
+*/
+
+
+if( function_exists('acf_add_options_page') ) {
+
+	acf_add_options_page();
+
+	acf_add_options_sub_page( 'Header' );
+    
+	acf_add_options_sub_page( 'Footer' );
+    
+}
+
+
 
 /**
  * Enqueue theme assets.

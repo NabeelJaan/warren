@@ -1,6 +1,6 @@
 
 
-<section class="cta relative z-10 -mb-[200px] mx-[15px] max-w-1140px md:mx-auto rounded-xl px-[15px] xl:px-0 pt-20 pb-16">
+<section class="cta px-[15px] xl:px-0 pt-20 pb-16 relative z-10 -mb-[200px] mx-[15px] max-w-1140px md:mx-auto rounded-xl">
     <div class="">
         <div class="cta-wrapper">
             

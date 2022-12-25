@@ -6,50 +6,38 @@
         <div class="col-span-12 xl:col-span-10 xl:col-start-2">
 
             <div class="faq-header text-center mb-20">
+
                 <h2 class="text-white font-medium font-anekLatin uppercase text-4xl md:text-5xl xl:text-9xl">
-                    FAQ's
+                    <?php the_field( 'faq_heading' ); ?>
                 </h2>
-                
+
                 <div class="h-[2px] w-[200px] mx-auto bg-orangeCrayola mt-3 mb-8"></div>
 
             </div>
-            <div class="acc-container">        
-                <div class="acc border-y border-white">
-                    <div class="acc-head relative cursor-pointer py-6 px-3">
-                        <p class="text-white text-5xl font-medium font-anekLatin transition-all hover:text-orangeCrayola">Lorem ipsum dolor sit amet.</p>
-                    </div>
 
-                    <div class="acc-content">
-                        <p class="text-white text-2xl font-medium font-anekLatin pb-6 px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore magnam, nobis consequuntur nemo cupiditate vel sit ducimus quisquam quaerat sint officia ad voluptas consectetur beatae quis illo accusamus vero odit, architecto et.</p>
-                    </div>
-                </div>
+            <div class="acc-container">
 
-                <div class="acc border-b border-white">
-                    <div class="acc-head relative cursor-pointer py-6 px-3">
-                        <p class="text-white text-5xl font-medium font-anekLatin transition-all hover:text-orangeCrayola">Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <div class="acc-content">
-                        <p class="text-white text-2xl font-medium font-anekLatin pb-6 px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore magnam, nobis consequuntur nemo cupiditate vel sit ducimus quisquam quaerat sint officia ad voluptas beatae eveniet. Aliquam aspernatur nulla cupiditate reiciendis ut? Illum odio id odit? Tempore, ea itaque illum laborum quasi, explicabo amet veritatis corporis dolorem minus commodi? Esse repudiandae nam eligendi fugit, architecto quam! Nostrum dolores nisi nulla repudiandae sed tempora impedit quaerat voluptatem itaque suscipit. Placeat adipisci, eius maiores blanditiis possimus culpa? Laudantium officia, nulla repellat rerum tenetur esse quos perferendis. Omnis corporis sequi, recusandae culpa quibusdam doloremque fugiat consectetur beatae quis illo accusamus vero odit, architecto et.</p>
-                    </div>
-                </div>
+                <?php if( have_rows( 'questions_answers' ) ) : ?>
+                    <?php while( have_rows( 'questions_answers' ) ) : the_row(); ?>
 
-                <div class="acc border-b border-white">
-                    <div class="acc-head relative cursor-pointer py-6 px-3">
-                        <p class="text-white text-5xl font-medium font-anekLatin transition-all hover:text-orangeCrayola">Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <div class="acc-content">
-                        <p class="text-white text-2xl font-medium font-anekLatin pb-6 px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. doloremque fugiat consectetur beatae quis illo accusamus vero odit, architecto et.</p>
-                    </div>
-                </div>
+                        <div class="acc border-t border-white last:border-b">
 
-                <div class="acc border-b border-white">
-                    <div class="acc-head relative cursor-pointer py-6 px-3">
-                        <p class="text-white text-5xl font-medium font-anekLatin transition-all hover:text-orangeCrayola">Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <div class="acc-content">
-                        <p class="text-white text-2xl font-medium font-anekLatin pb-6 px-3">Lorem ipsum, dolor sit amet consectetur am, nobis consequuntur nemo cupiditate vel sit ducimus quisquam quaerat sint officia ad voluptas beatae eveniet. Aliquam aspernatur nulla cupiditate reiciendis ut? Illum odio id odit? Tempore, ea itaque illum laborum quasi, explicabo amet veritatis corporis dolorem minus commodi? Esse repudiandae nam eligendi fugit, architecto quam! Nostrum dolores nisi nulla repudiandae sed tempora impedit quaerat voluptatem itaque suscipit. Placeat adipisci, eius maiores blanditiis possimus culpa? Laudantium officia, nulla repellat rerum tenetur esse quos perferendis. Omnis corporis sequi, recusandae culpa quibusdam doloremque fugiat consectetur beatae quis illo accusamus vero odit, architecto et.</p>
-                    </div>
-                </div>
+                            <div class="acc-head relative cursor-pointer py-6 px-3">
+                                <p class="text-white text-5xl font-medium font-anekLatin transition-all hover:text-orangeCrayola">
+                                    <?php the_sub_field( 'question' ); ?>
+                                </p>
+                            </div>
+
+                            <div class="acc-content">
+                                <p class="text-white text-2xl font-medium font-anekLatin pb-6 px-3">
+                                    <?php the_sub_field( 'answer' ); ?>
+                                </p>
+                            </div>
+
+                        </div>
+                    <?php endwhile; ?>
+                <?php endif; ?>
+
             </div>
         </div>
     </div>
