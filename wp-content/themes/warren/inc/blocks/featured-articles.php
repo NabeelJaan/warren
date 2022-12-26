@@ -3,8 +3,11 @@
     <div class="mx-auto max-w-1140px 2xl:max-w-1585px">
 
         <div class="aritcles-head text-center mb-32">
-            <h2 class="font-medium font-anekLatin uppercase 2xl:text-9xl mb-4">Explore</h2>
-            <div class="h-[2px] w-[200px] mx-auto bg-orangeCrayola mt-3 mb-8"></div>
+            <h2 class="font-medium font-anekLatin uppercase text-2xl xs:text-5xl md:text-7xl 2xl:text-9xl mb-4">
+                <?php the_field( 'fp_title' ); ?>
+            </h2>
+
+            <div class="h-[2px] w-[150px] md:w-[200px] mx-auto bg-orangeCrayola mt-3 mb-8"></div>
         </div> 
 
         <!-- First Arcticle -->
@@ -27,7 +30,7 @@
                 $ex_id = get_the_ID();
         ?>
 
-        <div class="relative single-article md:flex md:items-center mb-32">
+        <div class="relative single-article lg:flex lg:items-center mb-32">
 
             <div class="f-img border-8 border-white relative">
                 <a href="<?php the_permalink(); ?>">
@@ -35,8 +38,8 @@
                 </a>
             </div>
 
-            <div class="w-2/4">
-                <div class="post-content bg-white p-[38px] -ml-10 shadow-md relative z-50">
+            <div class="max-w-[650px] mx-auto -mt-[100px] lg:w-2/4">
+                <div class="post-content bg-white px-5 py-7 md:p-[38px] lg:-ml-10 shadow-md relative z-50">
 
                     <span class="text-base font-anekLatin bg-orangeCrayola inline-block px-2 mb-5">
                         <?php
@@ -53,7 +56,7 @@
                     </span>
 
                     <a href="<?php the_permalink(); ?>">
-                        <h2 class="text-4xl font-anekLatin font-bold">
+                        <h2 class="text-2xl md:text-4xl font-anekLatin font-bold">
                             <?php the_title(); ?>
                         </h2>
                     </a>
@@ -97,7 +100,7 @@
                 while ( $the_query->have_posts() ) : $the_query->the_post();
         ?>
 
-        <div class="relative single-article md:flex md:items-center mb-32">
+        <div class="relative single-article lg:flex lg:items-center mb-32">
 
             <div class="f-img border-8 border-white relative order-last ">
                 <a href="<?php the_permalink(); ?>">
@@ -105,8 +108,8 @@
                 </a>
             </div>
 
-            <div class="w-2/4">
-                <div class="post-content bg-white p-[38px] -mr-10 shadow-md relative z-50">
+            <div class="max-w-[650px] mx-auto -mt-[100px] lg:w-2/4">
+                <div class="post-content bg-white p-5 py-7 md:p-[38px] lg:-mr-10 shadow-md relative z-50">
 
                     <span class="text-base font-anekLatin mb-5 bg-orangeCrayola inline-block px-2">
                         <?php
@@ -123,7 +126,7 @@
                     </span>
 
                     <a href="<?php the_permalink(); ?>">
-                        <h2 class="text-4xl font-anekLatin font-bold">
+                        <h2 class="text-2xl md:text-4xl font-anekLatin font-bold">
                             <?php the_title(); ?>
                         </h2>
                     </a>
@@ -166,7 +169,7 @@
                 while ( $the_query->have_posts() ) : $the_query->the_post();
         ?>
 
-        <div class="relative single-article md:flex md:items-center">
+        <div class="relative single-article lg:flex lg:items-center">
 
             <div class="f-img border-8 border-white relative">
                 <a href="<?php the_permalink(); ?>">
@@ -174,8 +177,8 @@
                 </a>
             </div>
 
-            <div class="w-2/4">
-                <div class="post-content bg-white p-[38px] -ml-10 shadow-md relative z-50">
+            <div class="max-w-[650px] mx-auto -mt-[100px] lg:w-2/4">
+                <div class="post-content bg-white px-5 py-7 md:p-[38px] lg:-ml-10 shadow-md relative z-50md:">
 
                     <span class="text-base font-anekLatin mb-5 bg-orangeCrayola inline-block px-2">
                         <?php
@@ -192,7 +195,7 @@
                     </span>
 
                     <a href="<?php the_permalink(); ?>">
-                        <h2 class="text-4xl font-anekLatin font-bold">
+                        <h2 class="text-2xl md:text-4xl font-anekLatin font-bold">
                             <?php the_title(); ?>
                         </h2>
                     </a>

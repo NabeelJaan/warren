@@ -5,16 +5,16 @@
 <footer class="site-footer px-[15px] xl:px-0 bg-isabelline py-14">
 
   <div class="mx-auto max-w-1140px 2xl:max-w-1585px">
-      <div class="fc-wrapper md:flex md:justify-between md:items-center">
+      <div class="fc-wrapper flex flex-col justify-center text-center md:flex-row md:justify-between md:items-center">
         <div class="copy-right">
-          <p class="text-black text-lg font-anekLatin font-medium">
+          <p class="text-black text-lg font-anekLatin font-medium mb-5 md:mb-0">
 
             <?php the_field( 'footer_copy_right' , 'option' ); ?>
 
           </p>
         </div>
 
-        <div class="social-link flex items-center gap-4">
+        <div class="social-link flex justify-center items-center gap-4">
 
           <div>
             <p class="text-black text-lg font-anekLatin font-medium">

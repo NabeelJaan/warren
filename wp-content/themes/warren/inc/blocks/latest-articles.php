@@ -5,7 +5,7 @@
     <div class="mx-auto max-w-1140px 2xl:max-w-1585px">
 
         <div class="faq-header text-center mb-20">
-            <h2 class="text-black font-medium font-anekLatin capitilize text-4xl md:text-5xl xl:text-9xl">
+            <h2 class="text-black font-medium font-anekLatin capitilize text-2xl xs:text-5xl md:text-7xl xl:text-9xl">
                 <?php the_field( 'latest_articles_heading' ); ?>
             </h2>
             

@@ -50,7 +50,7 @@ module.exports = {
 
         screens: {
             'xxs' : '320px',
-            'xs'  : '480px',
+            'xs'  : '350px',
             'sm'  : '575px',
             'md'  : '768px',
             'lg'  : tailpress.theme('settings.layout.contentSize', theme),

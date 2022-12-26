@@ -7,11 +7,11 @@
 
             <div class="faq-header text-center mb-20">
 
-                <h2 class="text-white font-medium font-anekLatin uppercase text-4xl md:text-5xl xl:text-9xl">
+                <h2 class="text-white font-medium font-anekLatin uppercase text-2xl xs:text-5xl md:text-8xl xl:text-9xl">
                     <?php the_field( 'faq_heading' ); ?>
                 </h2>
 
-                <div class="h-[2px] w-[200px] mx-auto bg-orangeCrayola mt-3 mb-8"></div>
+                <div class="h-[2px] w-[80px] md:w-[200px] mx-auto bg-orangeCrayola mt-3 mb-8"></div>
 
             </div>
 
@@ -23,7 +23,7 @@
                         <div class="acc border-t border-white last:border-b">
 
                             <div class="acc-head relative cursor-pointer py-6 px-3">
-                                <p class="text-white text-5xl font-medium font-anekLatin transition-all hover:text-orangeCrayola">
+                                <p class="text-white text-3xl md:text-5xl font-medium font-anekLatin transition-all hover:text-orangeCrayola">
                                     <?php the_sub_field( 'question' ); ?>
                                 </p>
                             </div>
