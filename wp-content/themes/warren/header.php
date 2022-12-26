@@ -24,7 +24,7 @@
 	<header class="fixed top-0 left-0 right-0 z-50">
 
 		<div class="bg-transparent relative z-50">
-			<div class="lg:flex lg:justify-between lg:items-center px-4 py-6">
+			<div class="flex justify-between items-center px-4 py-6">
 				<div class="flex justify-between items-center">
 					<div>
 						<?php if ( has_custom_logo() ) { ?>
