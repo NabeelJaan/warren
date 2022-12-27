@@ -132,7 +132,13 @@ Text Domain: tailpress
 
 /* News Letter */
 
-.cta {
-  background: rgb(3,111,240);
-  background: linear-gradient(37deg, rgba(3,111,240,1) 35%, rgba(101,160,245,1) 100%);
+.cta::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.8;
+  left: 0;
+  top: 0;
 }

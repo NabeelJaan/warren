@@ -38,7 +38,7 @@
                 </a>
             </div>
 
-            <div class="max-w-[650px] mx-auto -mt-[100px] lg:w-2/4">
+            <div class="max-w-[650px] mx-auto -mt-[100px] md:max-w-none md:mt-0 lg:w-2/4">
                 <div class="post-content bg-white px-5 py-7 md:p-[38px] lg:-ml-10 shadow-md relative z-50">
 
                     <span class="text-base font-anekLatin bg-orangeCrayola inline-block px-2 mb-5">
@@ -108,7 +108,7 @@
                 </a>
             </div>
 
-            <div class="max-w-[650px] mx-auto -mt-[100px] lg:w-2/4">
+            <div class="max-w-[650px] mx-auto -mt-[100px] md:max-w-none md:mt-0 lg:w-2/4">
                 <div class="post-content bg-white p-5 py-7 md:p-[38px] lg:-mr-10 shadow-md relative z-50">
 
                     <span class="text-base font-anekLatin mb-5 bg-orangeCrayola inline-block px-2">
@@ -177,7 +177,7 @@
                 </a>
             </div>
 
-            <div class="max-w-[650px] mx-auto -mt-[100px] lg:w-2/4">
+            <div class="max-w-[650px] mx-auto -mt-[100px] md:max-w-none md:mt-0 lg:w-2/4">
                 <div class="post-content bg-white px-5 py-7 md:p-[38px] lg:-ml-10 shadow-md relative z-50md:">
 
                     <span class="text-base font-anekLatin mb-5 bg-orangeCrayola inline-block px-2">

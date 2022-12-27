@@ -13,3 +13,17 @@
     </video>
 
 </section>
+
+
+
+<!-- <div class="video-wrapper flex justify-center">
+
+<iframe width="885" height="496" 
+    src="https://www.youtube.com/embed/<?php the_field('video_id');?>" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
+
+</div> -->

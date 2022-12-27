@@ -4,7 +4,7 @@
     "fields": [
         {
             "key": "field_63a3552da2619",
-            "label": "Title",
+            "label": "Featured Articles Title",
             "name": "fp_title",
             "aria-label": "",
             "type": "text",
@@ -41,5 +41,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1672082743
+    "modified": 1672157198
 }
