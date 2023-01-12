@@ -12,7 +12,7 @@
 <section class="relative flex items-center justify-center h-screen overflow-hidden -mt-20 z-0">
 
     <div class="sl-wrapper relative z-30">
-        <img class="site-logo mx-auto" src="http://localhost/warren/wp-content/uploads/2022/12/logo-4-e1670529843893.png" alt="warren Logo" width="" height="">
+        <img class="site-logo mx-auto" id="logo-scroll" style="position:relative;" src="http://localhost/warren/wp-content/uploads/2022/12/logo-4-e1670529843893.png" alt="warren Logo" width="" height="">
     </div>
 
     <video autoplay loop muted class="absolute z-10 w-auto min-w-full min-h-full max-w-none">
@@ -271,6 +271,13 @@
         </div>
     </div>
 </section>
+
+<script type="text/javascript">
+	const bg = document.getElementById('logo-scroll');
+	window.addEventListener('scroll',function(){
+		bg.style.backgroundSize = 160 - +window.pageYOffset/12+'%';
+	})
+</script>
 
 
 

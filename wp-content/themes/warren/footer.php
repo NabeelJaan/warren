@@ -1,5 +1,4 @@
 
-
 <div class="h-[8px] bg-orangeCrayola"></div>
 
 <footer class="site-footer px-[15px] xl:px-0 bg-isabelline py-14">
@@ -104,6 +103,12 @@ jQuery(document).ready(function() {
 
 
 </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 </html>

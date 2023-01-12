@@ -9,6 +9,8 @@
 	<!-- Google Preconnects -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 	<?php wp_head(); ?>
 </head>
@@ -56,8 +58,8 @@
 				?>
 
 				<div class="account_btn">
-					<a href="#" class="text-orangeCrayola uppercase text-2xl font-anekLatin mr-4 inline-block">sign in</a>
-					<a href="#" class="text-orangeCrayola uppercase text-2xl font-anekLatin inline-flex items-center justify-center w-[78px] h-[32px] border border-[#ff6d33] rounded-full">join</a>
+					<a href="#" class="text-orangeCrayola uppercase text-2xl font-anekLatin mr-4 inline-block">Connects</a>
+					<a href="#" class="text-orangeCrayola uppercase text-2xl font-anekLatin mr-4 inline-block">Explore</a>
 				</div>
 			</div>
 		</div>

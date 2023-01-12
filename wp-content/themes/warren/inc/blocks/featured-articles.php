@@ -1,13 +1,13 @@
-<section class="bg-isabelline px-[15px] xl:px-0 py-[120px]">
+<section class="featured-post bg-isabelline px-[15px] xl:px-0 py-[120px]">
 
     <div class="mx-auto max-w-1140px 2xl:max-w-1585px">
 
         <div class="aritcles-head text-center mb-32">
-            <h2 class="font-medium font-anekLatin uppercase text-2xl xs:text-5xl md:text-7xl 2xl:text-9xl mb-4">
+            <h2 data-aos="fade-up" data-aos-duration="1400" data-aos-easing="ease-in-out" class="font-medium font-anekLatin uppercase text-2xl xs:text-5xl md:text-7xl 2xl:text-9xl mb-4">
                 <?php the_field( 'fp_title' ); ?>
             </h2>
 
-            <div class="h-[2px] w-[150px] md:w-[200px] mx-auto bg-orangeCrayola mt-3 mb-8"></div>
+            <div data-aos="fade-up" data-aos-duration="1600" data-aos-easing="ease-in-out" class="h-[2px] w-[150px] md:w-[200px] mx-auto bg-orangeCrayola mt-3 mb-8"></div>
         </div> 
 
         <!-- First Arcticle -->
@@ -30,7 +30,7 @@
                 $ex_id = get_the_ID();
         ?>
 
-        <div class="relative single-article lg:flex lg:items-center mb-32">
+        <div data-aos="slide-up" data-aos-duration="1700" data-aos-easing="ease-in-out" class="relative single-article lg:flex lg:items-center mb-32">
 
             <div class="f-img border-8 border-white relative">
                 <a href="<?php the_permalink(); ?>">
@@ -38,7 +38,7 @@
                 </a>
             </div>
 
-            <div class="max-w-[650px] mx-auto -mt-[100px] md:max-w-none md:mt-0 lg:w-2/4">
+            <div class="fp-wrapper max-w-[650px] mx-auto -mt-[100px] md:max-w-none md:mt-0 lg:w-2/4">
                 <div class="post-content bg-white px-5 py-7 md:p-[38px] lg:-ml-10 shadow-md relative z-50">
 
                     <span class="text-base font-anekLatin bg-orangeCrayola inline-block px-2 mb-5">
@@ -67,7 +67,7 @@
                         <?php echo wp_trim_words( get_the_content(), 40 ); ?>
                     </div>
 
-                    <a href="<?php the_permalink(); ?>" class="text-xl pb-1 font-anekLatin border-b border-dotted border-orangeCrayola" area-label="continue reading" target="_self">
+                    <a href="<?php the_permalink(); ?>" class="text-xl font-anekLatin border px-3 py-2 transition-all delay-75 inline-flex items-center justify-center w-[190px] h-10 leading-none border-orangeCrayola hover:bg-orangeCrayola" area-label="continue reading" target="_self">
                         Continue Reading
                     </a>
                 </div> 
@@ -100,7 +100,7 @@
                 while ( $the_query->have_posts() ) : $the_query->the_post();
         ?>
 
-        <div class="relative single-article lg:flex lg:items-center mb-32">
+        <div data-aos="slide-up" data-aos-duration="1700" data-aos-easing="ease-in-out" class="relative single-article lg:flex lg:items-center mb-32">
 
             <div class="f-img border-8 border-white relative order-last ">
                 <a href="<?php the_permalink(); ?>">
@@ -108,7 +108,7 @@
                 </a>
             </div>
 
-            <div class="max-w-[650px] mx-auto -mt-[100px] md:max-w-none md:mt-0 lg:w-2/4">
+            <div class="fp-wrapper max-w-[650px] mx-auto -mt-[100px] md:max-w-none md:mt-0 lg:w-2/4">
                 <div class="post-content bg-white p-5 py-7 md:p-[38px] lg:-mr-10 shadow-md relative z-50">
 
                     <span class="text-base font-anekLatin mb-5 bg-orangeCrayola inline-block px-2">
@@ -137,7 +137,7 @@
                         <?php echo wp_trim_words( get_the_content(), 40 ); ?>
                     </div>
 
-                    <a href="<?php the_permalink(); ?>" class="text-xl pb-1 font-anekLatin border-b border-dotted border-orangeCrayola" area-label="continue reading" target="_self">
+                    <a href="<?php the_permalink(); ?>" class="text-xl font-anekLatin border px-3 py-2 transition-all delay-75 inline-flex items-center justify-center w-[190px] h-10 leading-none border-orangeCrayola hover:bg-orangeCrayola" area-label="continue reading" target="_self">
                         Continue Reading
                     </a>
 
@@ -169,7 +169,7 @@
                 while ( $the_query->have_posts() ) : $the_query->the_post();
         ?>
 
-        <div class="relative single-article lg:flex lg:items-center">
+        <div data-aos="slide-up" data-aos-duration="1700" data-aos-easing="ease-in-out" class="relative single-article lg:flex lg:items-center">
 
             <div class="f-img border-8 border-white relative">
                 <a href="<?php the_permalink(); ?>">
@@ -177,7 +177,7 @@
                 </a>
             </div>
 
-            <div class="max-w-[650px] mx-auto -mt-[100px] md:max-w-none md:mt-0 lg:w-2/4">
+            <div class="fp-wrapper max-w-[650px] mx-auto -mt-[100px] md:max-w-none md:mt-0 lg:w-2/4">
                 <div class="post-content bg-white px-5 py-7 md:p-[38px] lg:-ml-10 shadow-md relative z-50md:">
 
                     <span class="text-base font-anekLatin mb-5 bg-orangeCrayola inline-block px-2">
@@ -206,7 +206,7 @@
                         <?php echo wp_trim_words( get_the_content(), 40 ); ?>
                     </div>
 
-                    <a href="<?php the_permalink(); ?>" class="text-xl pb-1 font-anekLatin border-b border-dotted border-orangeCrayola" area-label="continue reading" target="_self">
+                    <a href="<?php the_permalink(); ?>" class="text-xl font-anekLatin border px-3 py-2 transition-all delay-75 inline-flex items-center justify-center w-[190px] h-10 leading-none border-orangeCrayola hover:bg-orangeCrayola" area-label="continue reading" target="_self">
                         Continue Reading
                     </a>
 

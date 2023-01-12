@@ -142,3 +142,42 @@ Text Domain: tailpress
   left: 0;
   top: 0;
 }
+
+.wpforms-form input[type=email] {
+  font-size: 18px !important;
+  padding: 22px !important;
+  border-radius: 50px !important;
+  border: 8px solid rgba(255, 109, 51, 0.6) !important;
+}
+
+.wpforms-form ::placeholder {
+  font-family: 'Anek Latin', sans-serif !important;
+}
+
+.wpforms-submit-container {
+  text-align: center !important;
+}
+
+.wpforms-submit {
+  font-size: 18px !important;
+  color: #fff !important;
+  border: none !important;
+  width: 200px !important;
+  height: 46px !important;
+  border-radius: 50px !important;
+  font-family: 'Anek Latin', sans-serif !important;
+  background-color: var(--orangeCrayola) !important;
+  transition: all ease-in-out 0.4s;
+}
+.wpforms-submit:hover {
+  color: #000000 !important;
+  background-color: var(--isabelline) !important;
+}
+
+
+@media (max-width: 768px) {
+  .post-content {
+    max-width: 690px;
+    margin: -60px auto 0;
+  }
+}

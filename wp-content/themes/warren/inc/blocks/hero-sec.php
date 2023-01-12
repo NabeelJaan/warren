@@ -1,11 +1,39 @@
-
-
-
+<style>
+	@media screen and (min-width: 1200px) {
+		#logo-scroll{
+			width:1000px;
+			top:40%;
+			right:1%;
+			left:1%;
+			position:fixed;	
+		}
+	}
+	@media screen and (max-width: 420px) {
+		#logo-scroll{
+			width:330px;
+			top:40%;
+			right:5%;
+			left:5%;
+			position:fixed;	
+		}
+	}
+</style>
 <section class="relative px-[15px] xl:px-0 flex items-center justify-center h-screen overflow-hidden -mt-20 z-0">
 
     <div class="sl-wrapper relative z-30">
-        <img class="site-logo mx-auto" src="http://localhost/warren/wp-content/uploads/2022/12/logo-4-e1670529843893.png" alt="warren Logo" width="" height="">
+
+        <?php $main_logo = get_field( 'main_logo' ); ?>
+        <?php if( $main_logo ) : ?>
+            <img class="site-logo mx-auto" id="logo-scroll" src="<?php echo esc_url( $main_logo['url'] ); ?>" alt="<?php echo esc_attr( $main_logo['alt'] ); ?>" width="" height="">
+        <?php endif; ?>
+
     </div>
+	<?php
+		//width: 200px;
+		//top: 25px;
+		//left: 16px;
+		//position: fixed;
+	?>
 
     <video autoplay loop muted class="absolute z-10 w-auto min-w-full min-h-full max-w-none">
         <source src="https://assets.mixkit.co/videos/preview/mixkit-set-of-plateaus-seen-from-the-heights-in-a-sunset-26070-large.mp4" type="video/mp4" />
@@ -13,17 +41,47 @@
     </video>
 
 </section>
-
-
-
-<!-- <div class="video-wrapper flex justify-center">
-
-<iframe width="885" height="496" 
-    src="https://www.youtube.com/embed/<?php the_field('video_id');?>" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-</iframe>
-
-</div> -->
+<script>
+		const bg = document.getElementById('logo-scroll');
+		const wd = jQuery(window).width();
+		//console.log(jQuery(window).width());
+	if(wd >= 1200){
+		window.addEventListener('scroll',function(){
+			//console.log(window.pageYOffset);
+			bg.style.top = 40-(window.pageYOffset/7.8667)+'%';
+			bg.style.right = 1+(window.pageYOffset*0.2983)+'%';
+			bg.style.width = 1000-(window.pageYOffset*2.7119)+'px';
+			if((wd >= 1200)&&(wd <= 1500)){
+				if(window.pageYOffset>=290){
+					bg.style.display = 'none';
+				}
+				else{
+					bg.style.display = 'block';
+				}
+			}
+			else if(wd > 1500){
+				if(window.pageYOffset>=295){
+					bg.style.display = 'none';
+				}
+				else{
+					bg.style.display = 'block';
+				}
+			}
+		
+		});
+	}
+	else if((wd >= 360)&&(wd <= 420)){
+		window.addEventListener('scroll',function(){
+			console.log(window.pageYOffset);
+			bg.style.top = 40-(window.pageYOffset/8.1333)+'%';
+			bg.style.right = 5+(window.pageYOffset*0.2885)+'%';
+			bg.style.width = 330-(window.pageYOffset*0.42623)+'px';
+			if(window.pageYOffset>=297){
+				bg.style.display = 'none';
+			}
+			else{
+				bg.style.display = 'block';
+			}
+		});
+	}
+</script>

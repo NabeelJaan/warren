@@ -1,15 +1,12 @@
-
-
-
 <section class="latest-articles px-[15px] xl:px-0 py-[120px]">
     <div class="mx-auto max-w-1140px 2xl:max-w-1585px">
 
         <div class="faq-header text-center mb-20">
-            <h2 class="text-black font-medium font-anekLatin capitilize text-2xl xs:text-5xl md:text-7xl xl:text-9xl">
+            <h2 data-aos="fade-up" data-aos-duration="1400" data-aos-easing="ease-in-out" class="text-black font-medium font-anekLatin capitilize text-2xl xs:text-5xl md:text-7xl xl:text-9xl">
                 <?php the_field( 'latest_articles_heading' ); ?>
             </h2>
             
-            <div class="h-[2px] w-[200px] mx-auto bg-orangeCrayola mt-3 mb-8"></div>
+            <div data-aos="fade-up" data-aos-duration="1600" data-aos-easing="ease-in-out" class="h-[2px] w-[200px] mx-auto bg-orangeCrayola mt-3 mb-8"></div>
         </div>
 
 
@@ -30,7 +27,7 @@
                     $ex_id = get_the_ID();
             ?>
 
-            <div class="post-box">
+            <div data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-in-out" class="post-box">
 
                 <div class="featured-img relative">
 
@@ -47,7 +44,7 @@
 
                 </div>
 
-                <div class="post-content border shadow-md text-center p-[25px]">
+                <div class="lp-content border shadow-md text-center p-[25px]">
 
                     <a href="<?php the_permalink(); ?>">
                         <h3 class="text-2xl font-anekLatin font-semibold text-black mb-4 mt-3"><?php the_title(); ?></h3>
