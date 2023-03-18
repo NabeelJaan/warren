@@ -58,8 +58,20 @@
 				?>
 
 				<div class="account_btn">
-					<a href="#" class="text-orangeCrayola uppercase text-2xl font-anekLatin mr-4 inline-block">Connects</a>
-					<a href="#" class="text-orangeCrayola uppercase text-2xl font-anekLatin mr-4 inline-block">Explore</a>
+
+					<?php $connect_button = get_field( 'connect_button' , 'option' ); ?>
+
+					<a href="<?php echo $connect_button['url']; ?>" class="text-orangeCrayola text-base uppercase md:text-2xl font-anekLatin mr-4 inline-block">
+						<?php echo esc_html( $connect_button['title'] ); ?>
+					</a>
+
+					<!-- Explore button -->
+					<?php $explore_button = get_field( 'explore_button' , 'option' ); ?>
+
+					<a href="<?php echo $explore_button['url']; ?>" class="text-orangeCrayola text-base uppercase md:text-2xl font-anekLatin inline-block">
+						<?php echo esc_html( $explore_button['title'] ); ?>
+					</a>
+
 				</div>
 			</div>
 		</div>

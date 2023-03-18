@@ -21,6 +21,19 @@ Text Domain: tailpress
 }
 
 
+/* Hero */
+.hero-sec::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
 .acc {
   margin-bottom: 10px;
 }
@@ -179,5 +192,11 @@ Text Domain: tailpress
   .post-content {
     max-width: 690px;
     margin: -60px auto 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .custom-logo-link > img {
+    width: 140px;
   }
 }

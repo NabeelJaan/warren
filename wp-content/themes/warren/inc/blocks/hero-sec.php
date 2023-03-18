@@ -18,7 +18,16 @@
 		}
 	}
 </style>
-<section class="relative px-[15px] xl:px-0 flex items-center justify-center h-screen overflow-hidden -mt-20 z-0">
+
+
+
+
+
+
+
+
+
+<section class="relative hero-sec px-[15px] xl:px-0 flex items-center justify-center h-screen overflow-hidden -mt-20 z-0">
 
     <div class="sl-wrapper relative z-30">
 
@@ -28,19 +37,28 @@
         <?php endif; ?>
 
     </div>
-	<?php
-		//width: 200px;
-		//top: 25px;
-		//left: 16px;
-		//position: fixed;
-	?>
 
     <video autoplay loop muted class="absolute z-10 w-auto min-w-full min-h-full max-w-none">
-        <source src="https://assets.mixkit.co/videos/preview/mixkit-set-of-plateaus-seen-from-the-heights-in-a-sunset-26070-large.mp4" type="video/mp4" />
+
+
+        <source src="https://warren3.xyz/wp-content/uploads/2023/01/warrenheader.mp4" type="video/mp4" />
+
+
         Your browser does not support the video tag.
     </video>
 
 </section>
+
+
+
+
+
+
+
+
+
+
+
 <script>
 		const bg = document.getElementById('logo-scroll');
 		const wd = jQuery(window).width();
